@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="BlueBerryBlueRadios" />
+	<DisplayName value="BlueBerryBlue Radios" />
+	<Description value="BlueBerryBlue Radios zum Musik höhren" />
+	<Author value="BlueBerryBlue" />
+	<Version value="1.1.0.4" />
+	<Website value="" />
+	<SkipWithAntiCheat value="true" />
+</xml>
