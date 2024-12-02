@@ -18,12 +18,13 @@
   <property name="SleeperIsQuestExclude" value="True,False,False,False" />
   <property name="SleeperVolumeFlags" value="2,2,2,2" />
   <property name="PrefabSize" value="25, 21, 25" />
-  <property name="Tags" value="desert, forest, burntforest, snow, wasteland, wilderness, residential, rural, downtown, oldwest, hideui, pine_forest, rural_filler, medieval25x25" />
+  <property name="Tags" value="countryresidential" />
   <property name="SleeperVolumeTriggeredBy" value=" # # # " />
   <property name="YOffset" value="-1" />
   <property name="QuestTags" value="clear, fetch" />
   <property name="DuplicateRepeatDistance" value="100" />
   <property name="ThemeRepeatDistance" value="200" />
+  <property name="EditorGroups" value="house old" />
   <property class="Stats">
     <property name="TotalVertices" value="162902" />
     <property name="TotalTriangles" value="81121" />

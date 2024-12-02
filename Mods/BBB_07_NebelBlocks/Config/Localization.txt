@@ -1,0 +1,64 @@
+key,English,German
+
+Nebel_Block_00,"Nebel 0m White","Nebel 0m Weiss"
+Nebel_Block_00Desc,"Mach Nebel","Mach Nebel"
+
+Nebel_Block_01,"Nebel 1m White","Nebel 1m Weiss"
+Nebel_Block_01Desc,"Mach Nebel","Mach Nebel"
+
+Nebel_Block_02,"Nebel 2m White","Nebel 2m Weiss"
+Nebel_Block_02Desc,"Mach Nebel","Mach Nebel"
+
+Nebel_Block_03,"Nebel 3m White","Nebel 3m Weiss"
+Nebel_Block_03Desc,"Mach Nebel","Mach Nebel"
+
+Nebel_Block_04,"Nebel 4m White","Nebel 4m Weiss"
+Nebel_Block_04Desc,"Mach Nebel","Mach Nebel"
+
+
+Nebel_Block_00_Rot,"Nebel 0m Rot","Nebel 0m Rot"
+Nebel_Block_00_RotDesc,"Mach Nebel","Mach Nebel"
+
+Nebel_Block_01_Rot,"Nebel 1m Rot","Nebel 1m Rot"
+Nebel_Block_01_RotDesc,"Mach Nebel","Mach Nebel"
+
+Nebel_Block_02_Rot,"Nebel 2m Rot","Nebel 2m Rot"
+Nebel_Block_02_RotDesc,"Mach Nebel","Mach Nebel"
+
+Nebel_Block_03_Rot,"Nebel 3m Rot","Nebel 3m Rot"
+Nebel_Block_03_RotDesc,"Mach Nebel","Mach Nebel"
+
+Nebel_Block_04_Rot,"Nebel 4m Rot","Nebel 4m Rot"
+Nebel_Block_04_RotDesc,"Mach Nebel","Mach Nebel"
+
+
+Nebel_Block_00_Blau,"Nebel 0m Blau","Nebel 0m Blau"
+Nebel_Block_00_BlauDesc,"Mach Nebel","Mach Nebel"
+
+Nebel_Block_01_Blau,"Nebel 1m Blau","Nebel 1m Blau"
+Nebel_Block_01_BlauDesc,"Mach Nebel","Mach Nebel"
+
+Nebel_Block_02_Blau,"Nebel 2m Blau","Nebel 2m Blau"
+Nebel_Block_02_BlauDesc,"Mach Nebel","Mach Nebel"
+
+Nebel_Block_03_Blau,"Nebel 3m Blau","Nebel 3m Blau"
+Nebel_Block_03_BlauDesc,"Mach Nebel","Mach Nebel"
+
+Nebel_Block_04_Blau,"Nebel 4m Blau","Nebel 4m Blau"
+Nebel_Block_04_BlauDesc,"Mach Nebel","Mach Nebel"
+
+
+Nebel_Block_00_Gelb,"Nebel 0m Gelb","Nebel 0m Gelb"
+Nebel_Block_00_GelbDesc,"Mach Nebel","Mach Nebel"
+
+Nebel_Block_01_Gelb,"Nebel 1m Gelb","Nebel 1m Gelb"
+Nebel_Block_01_GelbDesc,"Mach Nebel","Mach Nebel"
+
+Nebel_Block_02_Gelb,"Nebel 2m Gelb","Nebel 2m Gelb"
+Nebel_Block_02_GelbDesc,"Mach Nebel","Mach Nebel"
+
+Nebel_Block_03_Gelb,"Nebel 3m Gelb","Nebel 3m Gelb"
+Nebel_Block_03_GelbDesc,"Mach Nebel","Mach Nebel"
+
+Nebel_Block_04_Gelb,"Nebel 4m Gelb","Nebel 4m Gelb"
+Nebel_Block_04_GelbDesc,"Mach Nebel","Mach Nebel"
