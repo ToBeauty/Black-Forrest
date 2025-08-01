@@ -1,0 +1,12 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+resourceUranium,items,resources,,Uranium ,Uranium,,,,,,,,,,,,,,
+resourceForgedUranium,items,resources,,Forged Uranium ,Geschmiedetes Uranium,,,,,,,,,,,,,,
+ammo12mmUraniumBulletBall,items,resources,,12mm Bullet ,12mm Patrone,,,,,,,,,,,,,,
+resourceUraniumBulletTip,items,resources,,Uranium Bullet Tip ,Uraniumgeschoss Spitze,,,,,,,,,,,,,,
+resourceUraniumBulletCasing,items,resources,,Uranium Casing ,Uranium Hülse,,,,,,,,,,,,,,
+resourceUraniumGrenadeTip,items,resources,,Uraniumgrenade Tip ,Uraniumgranat Spitze,,,,,,,,,,,,,,
+resourceUraniumGrenadeCasing,items,resources,,Uraniumgrenade Casing ,Uraniumgranat Hülse,,,,,,,,,,,,,,
+ammoUraniumGrenade40mm,items,resources,,Uraniumgrenade 40mm ,Uraniumgranate 40mm,,,,,,,,,,,,,,
+gunMGT3M249,items,Gun,,,M249 Machine Gun modified for 12mm ammo,,M249-Maschinengewehr modifiziert für 12mm Patronen,,,,,,,,,,,,,,
+gunExplosivesT3MGL210,items,Gun,,,Grenade Launcher,,Granatwerfer,,,,,,,,,,,,,,

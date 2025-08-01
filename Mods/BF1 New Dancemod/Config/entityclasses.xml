@@ -1,0 +1,236 @@
+<configs>
+
+	<append xpath="/entity_classes">
+
+		<entity_class name="zombieArleneDisco" extends="zombieArlene"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieArleneFeralDisco" extends="zombieArleneFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieArleneRadiatedDisco" extends="zombieArleneRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+		<entity_class name="zombieMarleneDisco" extends="zombieMarlene"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieMarleneFeralDisco" extends="zombieMarleneFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieMarleneRadiatedDisco" extends="zombieMarleneRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+		<entity_class name="zombiePartyGirlDisco" extends="zombiePartyGirl"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombiePartyGirlFeralDisco" extends="zombiePartyGirlFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombiePartyGirlRadiatedDisco" extends="zombiePartyGirlRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+        <entity_class name="zombieNurseDisco" extends="zombieNurse"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieNurseFeralDisco" extends="zombieNurseFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieNurseRadiatedDisco" extends="zombieNurseRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+	
+	    <entity_class name="zombieJoeDisco" extends="zombieJoe"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieJoeFeralDisco" extends="zombieJoeFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieJoeRadiatedDisco" extends="zombieJoeRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+	   
+ 	    <entity_class name="zombieSteveDisco" extends="zombieSteve"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieSteveFeralDisco" extends="zombieSteveFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieSteveRadiatedDisco" extends="zombieSteveRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieSpiderDisco" extends="zombieSpider"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieSpiderFeralDisco" extends="zombieSpiderFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+        <entity_class name="zombieSpiderRadiatedDisco" extends="zombieSpiderRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>	   
+		
+		<entity_class name="zombieTomClarkDisco" extends="zombieTomClark"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieTomClarkFeralDisco" extends="zombieTomClarkFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieTomClarkRadiatedDisco" extends="zombieTomClarkRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		
+		<entity_class name="zombieBusinessManDisco" extends="zombieBusinessMan"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieBusinessManFeralDisco" extends="zombieBusinessManFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieBusinessManRadiatedDisco" extends="zombieBusinessManRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		
+		<entity_class name="zombieBurntDisco" extends="zombieBurnt"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieBurntFeralDisco" extends="zombieBurntFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieBurntRadiatedDisco" extends="zombieBurntRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+		<entity_class name="zombieBoeDisco" extends="zombieBoe"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieBoeFeralDisco" extends="zombieBoeFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieBoeRadiatedDisco" extends="zombieBoeRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+		<entity_class name="zombieInmateDisco" extends="zombieInmate"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieInmateFeralDisco" extends="zombieInmateFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieInmateRadiatedDisco" extends="zombieInmateRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieJanitorDisco" extends="zombieJanitor"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieJanitorFeralDisco" extends="zombieJanitorFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieJanitorRadiatedDisco" extends="zombieJanitorRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieMoeDisco" extends="zombieMoe"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieMoeFeralDisco" extends="zombieMoeFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieMoeRadiatedDisco" extends="zombieMoeRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieLabDisco" extends="zombieLab"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieLabFeralDisco" extends="zombieLabFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieLabRadiatedDisco" extends="zombieLabRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieDarleneDisco" extends="zombieDarlene"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieDarleneFeralDisco" extends="zombieDarleneFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieDarleneRadiatedDisco" extends="zombieDarleneRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieYoDisco" extends="zombieYo"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieYoFeralDisco" extends="zombieYoFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieYoRadiatedDisco" extends="zombieYoRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieUtilityWorkerDisco" extends="zombieUtilityWorker"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieUtilityWorkerFeralDisco" extends="zombieUtilityWorkerFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieUtilityWorkerRadiatedDisco" extends="zombieUtilityWorkerRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieBikerDisco" extends="zombieBiker"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieBikerFeralDisco" extends="zombieBikerFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieBikerRadiatedDisco" extends="zombieBikerRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieLumberjackDisco" extends="zombieLumberjack"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieLumberjackFeralDisco" extends="zombieLumberjackFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieLumberjackRadiatedDisco" extends="zombieLumberjackRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieFemaleFatDisco" extends="zombieFemaleFat"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieFemaleFatFeralDisco" extends="zombieFemaleFatFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieFemaleFatRadiatedDisco" extends="zombieFemaleFatRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieFatHawaiianDisco" extends="zombieFatHawaiian"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieFatHawaiianFeralDisco" extends="zombieFatHawaiianFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieFatHawaiianRadiatedDisco" extends="zombieFatHawaiianRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieBowlerDisco" extends="zombieBowler"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieBowlerFeralDisco" extends="zombieBowlerFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieBowlerRadiatedDisco" extends="zombieBowlerRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieMaleHazmatDisco" extends="zombieMaleHazmat"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieMaleHazmatFeralDisco" extends="zombieMaleHazmatFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieMaleHazmatRadiatedDisco" extends="zombieMaleHazmatRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieFatCopDisco" extends="zombieFatCop"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieFatCopFeralDisco" extends="zombieFatCopFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieFatCopRadiatedDisco" extends="zombieFatCopRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieSkateboarderDisco" extends="zombieSkateboarder"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieSkateboarderFeralDisco" extends="zombieSkateboarderFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieSkateboarderRadiatedDisco" extends="zombieSkateboarderRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieSoldierDisco" extends="zombieSoldier"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieSoldierFeralDisco" extends="zombieSoldierFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieSoldierRadiatedDisco" extends="zombieSoldierRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieScreamerDisco" extends="zombieScreamer"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieScreamerFeralDisco" extends="zombieScreamerFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieScreamerRadiatedDisco" extends="zombieScreamerRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieMutatedDisco" extends="zombieMutated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieMutatedFeralDisco" extends="zombieMutatedFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieMutatedRadiatedDisco" extends="zombieMutatedRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+		<entity_class name="zombieWightFeralDisco" extends="zombieWightFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieWightRadiatedDisco" extends="zombieWightRadiated"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieSteveCrawlerDisco" extends="zombieSteveCrawler"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+		<entity_class name="zombieSteveCrawlerFeralDisco" extends="zombieSteveCrawlerFeral"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieDemolitionDisco" extends="zombieDemolition"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieSpiderFeralGliderPLUSDisco" extends="zombieSpiderFeralGliderPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieM60DemolitionPLUSDisco" extends="zombieM60DemolitionPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieTARifleSoldierPLUSDisco" extends="zombieTARifleSoldierPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieBatonHazmatPLUSDisco" extends="zombieBatonHazmatPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieSteelAxeLumberjackPLUSDisco" extends="zombieSteelAxeLumberjackPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieMachetePartyGirlPLUSDisco" extends="zombieMachetePartyGirlPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombiePistolBusinessManPLUSDisco" extends="zombiePistolBusinessManPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieNailgunUtilityWorkerPLUSDisco" extends="zombieNailgunUtilityWorkerPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieSniperBoePLUSDisco" extends="zombieSniperWightPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieChainsawMoePLUSDisco" extends="zombieChainsawMoePLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombiePumpShotgunBikerPLUSDisco" extends="zombiePumpShotgunBikerPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieBatonFatCopPLUSDisco" extends="zombieBatonFatCopPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieSteelClubFemaleFatPLUSDisco" extends="zombieSteelClubFemaleFatPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieBoltNursePLUSDisco" extends="zombieBoltNursePLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieSteelSledgehammerFatHawaiianPLUSDisco" extends="zombieSteelSledgehammerFatHawaiianPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieWightRadiationShowerPLUSDisco" extends="zombieWightRadiationShowerPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieBogeymanPLUSDisco" extends="zombieBogeymanPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieCrispyPLUSDisco" extends="zombieCrispyPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieRocketPLUSDisco" extends="zombieRocketPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieRocketRadiatedPLUSDisco" extends="zombieRocketRadiatedPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieScorcherPLUSDisco" extends="zombieScorcherPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieScorcherRadiatedPLUSDisco" extends="zombieScorcherRadiatedPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieBansheeScreamerPLUSDisco" extends="zombieBansheeScreamerPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	    <entity_class name="zombieBurntSirenPLUSDisco" extends="zombieBurntSirenPLUS"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieDemolitionEliteDisco" extends="zombieDemolitionElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieFemaleFatEliteDisco" extends="zombieFemaleFatElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieFatHawaiianEliteDisco" extends="zombieFatHawaiianElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieCopEliteDisco" extends="zombieCopElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieWightEliteDisco" extends="zombieWightElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieSoldierEliteDisco" extends="zombieSoldierElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieSkaterEliteDisco" extends="zombieSkaterElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieBikerEliteDisco" extends="zombieBikerElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieHazmatEliteDisco" extends="zombieHazmatElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieLumberjackEliteDisco" extends="zombieLumberjackElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieMoeEliteDisco" extends="zombieMoeElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieUtilityWorkerEliteDisco" extends="zombieUtilityWorkerElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieMarleneEliteDisco" extends="zombieMarleneElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieSpiderEliteDisco" extends="zombieSpiderElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieBoeEliteDisco" extends="zombieBoeElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieDarleneEliteDisco" extends="zombieDarleneElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieJoeEliteDisco" extends="zombieJoeElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieSteveEliteDisco" extends="zombieSteveElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieYoEliteDisco" extends="zombieYoElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieNurseEliteDisco" extends="zombieNurseElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombiePartyGirlEliteDisco" extends="zombiePartyGirlElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieLabEliteDisco" extends="zombieLabElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieTomClarkEliteDisco" extends="zombieTomClarkElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieJanitorEliteDisco" extends="zombieJanitorElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieBurntEliteDisco" extends="zombieBurntElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieBusinessManEliteDisco" extends="zombieBusinessManElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+	 	<entity_class name="zombieInmateEliteDisco" extends="zombieInmateElite"><effect_group name="Base Effects"><triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="disco_dance"/></effect_group></entity_class>
+
+
+
+	</append>
+
+
+</configs>

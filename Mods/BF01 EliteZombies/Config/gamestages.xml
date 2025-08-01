@@ -1,0 +1,30 @@
+<configs>
+
+	<append xpath="/gamestages">
+
+		<spawner name="zombieEliteSpawn">
+			<gamestage stage="1">
+				<spawn group="zombieEliteGroupGS1" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="50">
+				<spawn group="zombieEliteGroupGS50" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="100">
+				<spawn group="zombieEliteGroupGS100" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="200">
+				<spawn group="zombieEliteGroupGS200" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="400">
+				<spawn group="zombieEliteGroupGS400" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="600">
+				<spawn group="zombieEliteGroupGS600" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+		</spawner>
+
+		<group name="zombieEliteSpawnGroup" spawner="zombieEliteSpawn"/>
+
+	</append>
+
+</configs>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="False" />
+  <property name="DifficultyTier" value="0" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="TraderArea" value="True" />
+  <property name="PrefabSize" value="57, 37, 46" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="Zoning" value="none" />
+  <property name="Tags" value="wilderness, wildernesspoi" />
+  <property name="ThemeTags" value="traderJoel" />
+  <property name="YOffset" value="-17" />
+  <property name="QuestTags" value="trader" />
+  <property name="TeleportVolumeSize" value="" />
+  <property name="TeleportVolumeStart" value="" />
+  <property class="IndexedBlockOffsets">
+    <property class="quest_wood">
+      <property name="0" value="47, 17, 32" />
+    </property>
+    <property class="TraderOnOff">
+      <property name="0" value="56, 19, 24" />
+      <property name="1" value="55, 17, 25" />
+      <property name="2" value="56, 19, 25" />
+      <property name="3" value="56, 19, 26" />
+      <property name="4" value="56, 19, 27" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="35, 17, 38" />
+    </property>
+    <property class="challenge_sinks">
+      <property name="0" value="44, 17, 12" />
+    </property>
+    <property class="challenge_steel">
+      <property name="0" value="33, 17, 14" />
+      <property name="1" value="35, 17, 14" />
+    </property>
+    <property class="challenge_polymers">
+      <property name="0" value="42, 17, 25" />
+      <property name="1" value="37, 17, 36" />
+      <property name="2" value="39, 18, 36" />
+    </property>
+    <property class="Trader">
+      <property name="0" value="10, 18, 32" />
+    </property>
+    <property class="challenge_cars">
+      <property name="0" value="34, 17, 19" />
+    </property>
+    <property class="quest_stone">
+      <property name="0" value="21, 18, 8" />
+    </property>
+    <property class="challenge_mech_parts">
+      <property name="0" value="13, 17, 19" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="16, 18, 20" />
+    </property>
+    <property class="challenge_gore">
+      <property name="0" value="14, 22, 39" />
+    </property>
+    <property class="challenge_pallet">
+      <property name="0" value="16, 13, 23" />
+    </property>
+  </property>
+  <property class="Stats">
+    <property name="LightsVolume" value="18106.13" />
+    <property name="TotalVertices" value="835786" />
+    <property name="TotalTriangles" value="328060" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="731446" />
+      <property name="Triangles" value="255117" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="87693" />
+      <property name="Triangles" value="50389" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="2877" />
+      <property name="Triangles" value="1652" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="1200" />
+      <property name="Triangles" value="600" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="68" />
+      <property name="Triangles" value="34" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="12502" />
+      <property name="Triangles" value="20268" />
+    </property>
+  </property>
+</prefab>

@@ -1,0 +1,18 @@
+key,English,German
+
+autoThompsonTurret 44,"Thompson Turett 44","Thompson Geschützturm 44"
+autoThompsonTurret 44HP,"Thompson Turett 44HP","Thompson Geschützturm 44HP"
+autoThompsonTurret 44AP,"Thompson Turett 44AP","Thompson Geschützturm 44AP"
+ammo44MagnumBulletBallThompsonTurett,"TurettAmmo 44","Geschützturm Munition 44"
+ammo44MagnumBulletBallHPThompsonTurett,"TurettAmmo 44HP","Geschützturm Munition 44HP"
+ammo44MagnumBulletBallAPThompsonTurett,"TurettAmmo 44AP","Geschützturm Munition 44AP"
+autoTurret9mm,"Auto Turett 9mm","Automatischer Geschützturm 9mm"
+autoTurret9mmHP,"Auto Turett 9mmHP","Automatischer Geschützturm 9mmHP"
+autoTurret9mmAP,"Auto Turett 9mmAP","Automatischer Geschützturm 9mmAP"
+ammo9mmBulletBallTurett,"TurettAmmo 9mm","Geschützturm Munition 9mm"
+ammo9mmBulletHPTurett,"TurettAmmo 9mmHP","Geschützturm Munition 9mmHP"
+ammo9mmBulletAPTurett,"TurettAmmo 9mmAP","Geschützturm Munition 9mmAP"
+
+
+
+

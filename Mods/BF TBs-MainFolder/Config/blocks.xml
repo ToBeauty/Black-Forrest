@@ -1,0 +1,349 @@
+<configs>
+
+	<append xpath="/blocks">
+	
+		<block name="Radio">
+			<property name="Model" value="#@modfolder:Resources/Radio2.unity3d?Radio2.prefab"/>
+			<property name="CustomIcon" value="Radio2"/>
+			<property name="MultiBlockDim" value="1,1,1"/> <!-- x,y,z breite,höhe,tiefe -->
+			<property name="Material" value="Mstone"/>     <!-- Klang des Blockes Mstone, Mwood, Miron -->
+			<property name="MaxDamage" value="100"/>
+			<property name="FuelValue" value="300"/>
+			<property name="OnlySimpleRotations" value="true"/> <!-- AllowAllRotations,OnlySimpleRotations -->
+			<property class="RepairItems"><property name="resourceCobblestones" value="10"/></property>
+				<drop event="Destroy" name="resourceBrokenGlass" count="1,3"/>
+				<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="ModelOffset" value="0,0,0"/>   
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="CanPickup" value="false"/>
+		</block>
+		
+		
+		
+		<block name="Iris">
+			<property name="Model" value="#@modfolder:Resources/TV4.unity3d?TV4.prefab"/>
+			<property name="CustomIcon" value="TV4"/>
+			<property name="MultiBlockDim" value="1,1,1"/> <!-- x,y,z breite,höhe,tiefe -->
+			<property name="Material" value="Mstone"/>     <!-- Klang des Blockes Mstone, Mwood, Miron -->
+			<property name="MaxDamage" value="100"/>
+			<property name="FuelValue" value="300"/>
+			<property name="OnlySimpleRotations" value="true"/> <!-- AllowAllRotations,OnlySimpleRotations -->
+			<property class="RepairItems"><property name="resourceCobblestones" value="10"/></property>
+				<drop event="Destroy" name="resourceBrokenGlass" count="1,3"/>
+				<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="ModelOffset" value="0,0,0"/>   
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="CanPickup" value="false"/>
+		</block>
+		
+		<block name="Susan">
+			<property name="Model" value="#@modfolder:Resources/Susan2.unity3d?Susan2.prefab"/>
+			<property name="CustomIcon" value="TV4"/>
+			<property name="MultiBlockDim" value="1,1,1"/> <!-- x,y,z breite,höhe,tiefe -->
+			<property name="Material" value="Mstone"/>     <!-- Klang des Blockes Mstone, Mwood, Miron -->
+			<property name="MaxDamage" value="100"/>
+			<property name="FuelValue" value="300"/>
+			<property name="OnlySimpleRotations" value="true"/> <!-- AllowAllRotations,OnlySimpleRotations -->
+			<property class="RepairItems"><property name="resourceCobblestones" value="10"/></property>
+				<drop event="Destroy" name="resourceBrokenGlass" count="1,3"/>
+				<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="ModelOffset" value="0,0,0"/>   
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="CanPickup" value="false"/>
+		</block>
+		
+		<block name="Remy">
+			<property name="Model" value="#@modfolder:Resources/TV1.unity3d?TV1.prefab"/>
+			<property name="CustomIcon" value="TV1"/>
+			<property name="MultiBlockDim" value="1,1,1"/> <!-- x,y,z breite,höhe,tiefe -->
+			<property name="Material" value="Mstone"/>     <!-- Klang des Blockes Mstone, Mwood, Miron -->
+			<property name="MaxDamage" value="100"/>
+			<property name="FuelValue" value="300"/>
+			<property name="OnlySimpleRotations" value="true"/> <!-- AllowAllRotations,OnlySimpleRotations -->
+			<property class="RepairItems"><property name="resourceCobblestones" value="10"/></property>
+				<drop event="Destroy" name="resourceBrokenGlass" count="1,3"/>
+				<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="ModelOffset" value="0,0,0"/>   
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="CanPickup" value="false"/>
+		</block>
+		
+		<block name="Eve">
+			<property name="Model" value="#@modfolder:Resources/TV2.unity3d?TV2.prefab"/>
+			<property name="CustomIcon" value="TV2"/>
+			<property name="MultiBlockDim" value="1,1,1"/> <!-- x,y,z breite,höhe,tiefe -->
+			<property name="Material" value="Mstone"/>     <!-- Klang des Blockes Mstone, Mwood, Miron -->
+			<property name="MaxDamage" value="100"/>
+			<property name="FuelValue" value="300"/>
+			<property name="OnlySimpleRotations" value="true"/> <!-- AllowAllRotations,OnlySimpleRotations -->
+			<property class="RepairItems"><property name="resourceCobblestones" value="10"/></property>
+				<drop event="Destroy" name="resourceBrokenGlass" count="1,3"/>
+				<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="ModelOffset" value="0,0,0"/>   
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="CanPickup" value="false"/>
+		</block>
+		
+		<block name="Stella">
+			<property name="Model" value="#@modfolder:Resources/TV3.unity3d?TV3.prefab"/>
+			<property name="CustomIcon" value="TV3"/>
+			<property name="MultiBlockDim" value="1,1,1"/> <!-- x,y,z breite,höhe,tiefe -->
+			<property name="Material" value="Mstone"/>     <!-- Klang des Blockes Mstone, Mwood, Miron -->
+			<property name="MaxDamage" value="100"/>
+			<property name="FuelValue" value="300"/>
+			<property name="OnlySimpleRotations" value="true"/> <!-- AllowAllRotations,OnlySimpleRotations -->
+			<property class="RepairItems"><property name="resourceCobblestones" value="10"/></property>
+				<drop event="Destroy" name="resourceBrokenGlass" count="1,3"/>
+				<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="ModelOffset" value="0,0,0"/>   
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="CanPickup" value="false"/>
+		</block>
+		
+		<block name="Uranium">
+			<property name="Model" value="#@modfolder:Resources/Uran.unity3d?Uran.prefab"/>
+			<property name="CustomIcon" value="Uranium"/>
+			<property name="MultiBlockDim" value="1,1,1"/> <!-- x,y,z breite,höhe,tiefe -->
+			<property name="Material" value="Miron"/>     <!-- Klang des Blockes Mstone, Mwood, Miron -->
+			<property name="MaxDamage" value="1000"/>
+			<property name="FuelValue" value="300"/>
+			<property name="OnlySimpleRotations" value="true"/> <!-- AllowAllRotations,OnlySimpleRotations -->
+				<drop event="Destroy" count="0"/>
+				<drop event="Harvest" name="resourceUranium" count="100" tag="oreWoodHarvest"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket"/>
+			<property name="ModelOffset" value="0,0,0"/>   
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="CanPickup" value="false"/>
+		</block>
+			
+			<block name="TVTWD">
+			<property name="Model" value="#@modfolder:Resources/TVTWD.unity3d?TVTWD.prefab"/>
+			<property name="CustomIcon" value="TV"/>
+			<property name="MultiBlockDim" value="1,1,1"/> <!-- x,y,z breite,höhe,tiefe -->
+			<property name="Material" value="Mstone"/>     <!-- Klang des Blockes Mstone, Mwood, Miron -->
+			<property name="MaxDamage" value="100"/>
+			<property name="FuelValue" value="300"/>
+			<property name="OnlySimpleRotations" value="true"/> <!-- AllowAllRotations,OnlySimpleRotations -->
+			<property class="RepairItems"><property name="resourceCobblestones" value="10"/></property>
+				<drop event="Destroy" name="resourceBrokenGlass" count="1,3"/>
+				<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket"/>
+			<property name="ModelOffset" value="0,0,0"/>   
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="CanPickup" value="false"/>
+		</block>
+		
+		<block name="Antipas">
+			<property name="Model" value="#@modfolder:Resources/Antipas.unity3d?Antipas.prefab"/>
+			<property name="CustomIcon" value="Antipas"/>
+			<property name="MultiBlockDim" value="1,1,1"/> <!-- x,y,z breite,höhe,tiefe -->
+			<property name="Material" value="Mstone"/>     <!-- Klang des Blockes Mstone, Mwood, Miron -->
+			<property name="MaxDamage" value="100"/>
+			<property name="FuelValue" value="300"/>
+			<property name="OnlySimpleRotations" value="true"/> <!-- AllowAllRotations,OnlySimpleRotations -->
+			<property class="RepairItems"><property name="resourceCobblestones" value="10"/></property>
+				<drop event="Destroy" name="resourceBrokenGlass" count="1,3"/>
+				<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket"/>
+			<property name="ModelOffset" value="0,0,0"/>   
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="CanPickup" value="false"/>
+		</block>
+		
+		<block name="Zombiegirl">
+			<property name="Model" value="#@modfolder:Resources/Zombiegirl.unity3d?Zombiegirl.prefab"/>
+			<property name="CustomIcon" value="Zombiegirl"/>
+			<property name="MultiBlockDim" value="1,1,1"/> <!-- x,y,z breite,höhe,tiefe -->
+			<property name="Material" value="Mstone"/>     <!-- Klang des Blockes Mstone, Mwood, Miron -->
+			<property name="MaxDamage" value="100"/>
+			<property name="FuelValue" value="300"/>
+			<property name="OnlySimpleRotations" value="true"/> <!-- AllowAllRotations,OnlySimpleRotations -->
+			<property class="RepairItems"><property name="resourceCobblestones" value="10"/></property>
+				<drop event="Destroy" name="resourceBrokenGlass" count="1,3"/>
+				<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket"/>
+			<property name="ModelOffset" value="0,0,0"/>   
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="CanPickup" value="false"/>
+		</block>
+		
+		<block name="Prayer1">
+			<property name="Model" value="#@modfolder:Resources/Prayer1.unity3d?Prayer1.prefab"/>
+			<property name="CustomIcon" value="Prayer1"/>
+			<property name="MultiBlockDim" value="1,1,1"/> <!-- x,y,z breite,höhe,tiefe -->
+			<property name="Material" value="Mstone"/>     <!-- Klang des Blockes Mstone, Mwood, Miron -->
+			<property name="MaxDamage" value="100"/>
+			<property name="FuelValue" value="300"/>
+			<property name="OnlySimpleRotations" value="true"/> <!-- AllowAllRotations,OnlySimpleRotations -->
+			<property class="RepairItems"><property name="resourceCobblestones" value="10"/></property>
+				<drop event="Destroy" name="resourceBrokenGlass" count="1,3"/>
+				<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket"/>
+			<property name="ModelOffset" value="0,0,0"/>   
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="CanPickup" value="false"/>
+		</block>
+		
+		<block name="Prayer2">
+			<property name="Model" value="#@modfolder:Resources/Prayer2.unity3d?Prayer2.prefab"/>
+			<property name="CustomIcon" value="Prayer2"/>
+			<property name="MultiBlockDim" value="1,1,1"/> <!-- x,y,z breite,höhe,tiefe -->
+			<property name="Material" value="Mstone"/>     <!-- Klang des Blockes Mstone, Mwood, Miron -->
+			<property name="MaxDamage" value="100"/>
+			<property name="FuelValue" value="300"/>
+			<property name="OnlySimpleRotations" value="true"/> <!-- AllowAllRotations,OnlySimpleRotations -->
+			<property class="RepairItems"><property name="resourceCobblestones" value="10"/></property>
+				<drop event="Destroy" name="resourceBrokenGlass" count="1,3"/>
+				<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket"/>
+			<property name="ModelOffset" value="0,0,0"/>   
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="CanPickup" value="false"/>
+		</block>
+		
+		<block name="oreUraniumBoulder">
+	<property name="Extends" value="oreBoulderMaster"/>
+	<property name="Material" value="MoreMetal"/>
+	<property name="Model" value="#@modfolder:Resources/UranFog.unity3d?UranFog.prefab"/>	
+	<property name="ModelOffset" value="0,.5,0"/>
+	<property name="Map.Color" value="70,110,120"/>
+	<drop event="Harvest" name="resourceUranium" count="105" tag="oreWoodHarvest"/>
+</block>
+
+<block name="terrOreUranium">
+	<property name="Material" value="MoreMetal"/>
+	<property name="Tags" value="ore,deepOre"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Map.Color" value="173,216,230"/>
+	<property name="CustomIcon" value="terrOrePotassiumNitrate"/>
+	<property name="CustomIconTint" value="#0000FF"/>	
+	<property name="Texture" value="300,191"/>	
+	<property name="Weight" value="100"/>
+	<property name="ImposterExclude" value="true"/>
+	<drop event="Harvest" name="resourceUranium" count="50" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceRockSmall" count="14" tag="oreWoodHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceUranium" count="50" prob="0.4" stick_chance="0"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="EconomicValue" value="5"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="FilterTags" value="MC_outdoor,SC_terrain"/>
+	<property name="SortOrder1" value="d0l0"/>
+	<property name="SortOrder2" value="0050"/>
+	<property name="DisplayType" value="blockTerrain"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Harvest" name="resourceSilverNugget" prob=".01" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".007" count="1" tag="artOfMiningLuckyStrikeHarvest"/>
+	<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+</block>
+
+<block name="terrOreStoneUraniumRandom">
+	<property name="Extends" value="terrOreStoneIronRandom"/>
+	<property name="CreativeMode" value="Player"/>
+</block>
+
+
+
+<block name="glassBlock50k">
+	<property name="CustomIcon" value="glassBusinessBlock"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Shape" value="New"/>
+	<property name="LightOpacity" value="1"/>
+	<property name="Model" value="@:Shapes/cube_glass.fbx"/>
+	<property name="SortOrder2" value="0050"/> <!-- SortShape -->
+	<property name="Mesh" value="transparent"/>
+	<property name="Texture" value="285"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="DescriptionKey" value="glassGroupDesc"/>
+	<property class="RepairItems"> <property name="resourceBrokenGlass" value="10"/> </property>
+	<property name="MaxDamage" value="50000"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="1,3"/>
+	<property name="EconomicValue" value="10"/>
+	<property name="FilterTags" value="fdecor,fwindows"/>
+	<property name="SortOrder1" value="7080"/>
+</block>
+
+<block name="radiatedterrDesertGround">
+	<property name="TerrainIndex" value="7"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+	<property name="DisplayType" value="blockTerrainFertile"/>
+	<property name="Map.Color" value="255,221,153"/>
+	<property name="Material" value="MDesertGround"/>
+	<property name="BuffsWhenWalkedOn" value="buffRadiation03"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="185,184,184,184,184,184"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="EconomicValue" value="5"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceCrushedSand" value="7"/>
+		<property name="resourceClayLump" value="7"/>
+	</property>
+	<drop event="Harvest" name="resourceCrushedSand" count="9" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceClayLump" count="9" tag="oreWoodHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceCrushedSand" count="11" prob="0.5" stick_chance="0"/>
+	<property name="SortOrder1" value="0000"/>
+	<property name="SortOrder2" value="0450"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+	<property name="FilterTags" value="MC_outdoor,SC_terrain"/>
+</block>
+
+<block name="bridgeConcreteBlock100k">
+	<property name="Extends" value="concreteMaster"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Material" value="Mbridge_concrete"/>
+	<property name="Path" value="solid"/>
+	<property name="MaxDamage" value="100000"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="steelShapes:cube"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="SortOrder1" value="B560"/>
+	<property name="SortOrder2" value="0001"/>
+</block>
+		
+		
+		
+	
+	
+	</append>
+
+</configs>

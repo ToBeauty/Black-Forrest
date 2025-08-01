@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Turetts" />
+	<DisplayName value="Things" />
+	<Description value="Adds a new turett" />
+	<Author value="ToBeauty" />
+	<Version value="2.0" />
+	<Website value="" />
+	<SkipWithAntiCheat value="true" />
+</xml>

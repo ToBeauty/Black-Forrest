@@ -1,0 +1,45 @@
+<configs>
+
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingTraps']" >
+
+<display_entry icon="bladeTrap" name_key="trapsT1" has_quality="false" unlock_level="25" >
+			<unlock_entry item="electricfencepost,dartTrap,bladeTrap" unlock_tier="1"/>
+		</display_entry>
+		<display_entry icon="shotgunTurret" name_key="trapsT2" has_quality="false" unlock_level="50" >
+			<unlock_entry item="shotgunTurret" unlock_tier="1"/>
+		</display_entry>
+		<display_entry icon="autoTurret" name_key="trapsT3" has_quality="false" unlock_level="75" >
+			<unlock_entry item="autoTurret" unlock_tier="1"/>
+		</display_entry>
+		<display_entry icon="autoThompsonTurret 44" name_key="trapsT3" has_quality="false" unlock_level="75" >
+			<unlock_entry item="autoThompsonTurret 44" unlock_tier="1"/>
+		</display_entry>
+		<display_entry icon="autoThompsonTurret 44HP" name_key="trapsT3" has_quality="false" unlock_level="75" >
+			<unlock_entry item="autoThompsonTurret 44HP" unlock_tier="1"/>
+		</display_entry>
+		<display_entry icon="autoThompsonTurret 44AP" name_key="trapsT3" has_quality="false" unlock_level="75" >
+			<unlock_entry item="autoThompsonTurret 44AP" unlock_tier="1"/>
+		</display_entry>
+		<display_entry icon="autoTurret9mm" name_key="trapsT3" has_quality="false" unlock_level="75" >
+			<unlock_entry item="autoTurret9mm" unlock_tier="1"/>
+		</display_entry>
+		<display_entry icon="autoTurret9mmHP" name_key="trapsT3" has_quality="false" unlock_level="75" >
+			<unlock_entry item="autoTurret9mmHP" unlock_tier="1"/>
+		</display_entry>
+		<display_entry icon="autoTurret9mmAP" name_key="trapsT3" has_quality="false" unlock_level="75" >
+			<unlock_entry item="autoTurret9mmAP" unlock_tier="1"/>
+		</display_entry>
+
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="electricfencepost,dartTrap,bladeTrap"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="shotgunTurret"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="autoTurret,autoThompsonTurret 44,autoThompsonTurret 44HP,autoThompsonTurret 44AP"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="autoTurret9mm,autoTurret9mmHP,autoTurret9mmAP"/>
+		</effect_group>
+		
+	</set>
+	
+	
+
+
+</configs>

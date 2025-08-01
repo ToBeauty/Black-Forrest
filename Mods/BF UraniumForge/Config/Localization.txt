@@ -1,0 +1,8 @@
+key,English,German
+
+uraniumforge,"UraniumForge","Uraniumschmiede"
+
+
+
+
+

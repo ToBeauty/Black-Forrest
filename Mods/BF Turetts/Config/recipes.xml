@@ -1,0 +1,107 @@
+<recipes>
+
+<append xpath="/recipes">
+
+<recipe name="autoThompsonTurret 44" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable"> <!-- trap -->
+	<ingredient name="motionsensor" count="1"/>
+	<ingredient name="resourceForgedSteel" count="30"/>
+	<ingredient name="gunHandgunT1PistolParts" count="3"/>
+	<ingredient name="resourceOil" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,gunHandgunT1PistolParts,resourceOil,resourceScrapPolymers"/>
+	</effect_group>
+</recipe>
+
+<recipe name="autoThompsonTurret 44HP" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable"> <!-- trap -->
+	<ingredient name="motionsensor" count="1"/>
+	<ingredient name="resourceForgedSteel" count="30"/>
+	<ingredient name="gunHandgunT1PistolParts" count="3"/>
+	<ingredient name="resourceOil" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,gunHandgunT1PistolParts,resourceOil,resourceScrapPolymers"/>
+	</effect_group>
+</recipe>
+
+<recipe name="autoThompsonTurret 44AP" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable"> <!-- trap -->
+	<ingredient name="motionsensor" count="1"/>
+	<ingredient name="resourceForgedSteel" count="30"/>
+	<ingredient name="gunHandgunT1PistolParts" count="3"/>
+	<ingredient name="resourceOil" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,gunHandgunT1PistolParts,resourceOil,resourceScrapPolymers"/>
+	</effect_group>
+</recipe>
+
+
+<recipe name="autoTurret9mm" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable"> <!-- trap -->
+	<ingredient name="motionsensor" count="1"/>
+	<ingredient name="resourceForgedSteel" count="30"/>
+	<ingredient name="gunHandgunT1PistolParts" count="3"/>
+	<ingredient name="resourceOil" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,gunHandgunT1PistolParts,resourceOil,resourceScrapPolymers"/>
+	</effect_group>
+</recipe>
+
+<recipe name="autoTurret9mmHP" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable"> <!-- trap -->
+	<ingredient name="motionsensor" count="1"/>
+	<ingredient name="resourceForgedSteel" count="30"/>
+	<ingredient name="gunHandgunT1PistolParts" count="3"/>
+	<ingredient name="resourceOil" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,gunHandgunT1PistolParts,resourceOil,resourceScrapPolymers"/>
+	</effect_group>
+</recipe>
+
+<recipe name="autoTurret9mmAP" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable"> <!-- trap -->
+	<ingredient name="motionsensor" count="1"/>
+	<ingredient name="resourceForgedSteel" count="30"/>
+	<ingredient name="gunHandgunT1PistolParts" count="3"/>
+	<ingredient name="resourceOil" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,gunHandgunT1PistolParts,resourceOil,resourceScrapPolymers"/>
+	</effect_group>
+</recipe>
+
+<recipe name="ammo44MagnumBulletBallThompsonTurett" count="900" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammo44MagnumBulletBall" count="900"/>
+	
+</recipe>
+
+<recipe name="ammo44MagnumBulletBallHPThompsonTurett" count="900" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammo44MagnumBulletHP" count="900"/>
+	
+</recipe>
+
+<recipe name="ammo44MagnumBulletBallAPThompsonTurett" count="900" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammo44MagnumBulletAP" count="900"/>
+	
+</recipe>
+
+<recipe name="ammo9mmBulletBallTurett" count="900" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammo9mmBulletBall" count="900"/>
+	
+</recipe>
+
+<recipe name="ammo9mmBulletHPTurett" count="900" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammo9mmBulletHP" count="900"/>
+	
+</recipe>
+
+<recipe name="ammo9mmBulletAPTurett" count="900" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammo9mmBulletAP" count="900"/>
+	
+</recipe>
+
+
+
+
+</append>
+
+</recipes>
