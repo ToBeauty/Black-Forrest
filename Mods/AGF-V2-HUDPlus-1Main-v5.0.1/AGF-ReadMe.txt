@@ -1,5 +1,5 @@
-HUDPlus
-V2 Version 4.1.0
+HUDPlus 1Main
+7d2d Version 2 - v5.0.1
 
 
 ______________________________________________________________________________________________________________________
@@ -14,7 +14,7 @@ README TABLE OF CONTENTS
 _____________________________________________________________________________________________________________________
 1.  ABOUT AUTHOR
 	-My name is AuroraGiggleFairy (AGF), previously known as RilesPlus
-	-Started playing 7d2d during Alpha 12
+	-Started playing 7d2d during Alpha 8
 	-Started attempting to mod in Alpha 17
 	-First published a mod during Alpha 18
 	-Where to find:
@@ -44,8 +44,8 @@ ________________________________________________________________________________
 	-This is a server-side mod, meaning this mod can be installed on JUST the server and will work automatically for joining players.
 	-Works with EAC on or off.
 	-All 14 languages supported
-	-HUDPlus is SAFE to install on new or existing games.
-	-HUDPLUS is SAFE to remove from an existing game.
+	-HUDPlus-1Main is SAFE to install on new or existing games.
+	-HUDPlus-1Main is SAFE to remove from an existing game.
 
 
 ______________________________________________________________________________________________________________________
@@ -65,23 +65,43 @@ ________________________________________________________________________________
 	-Viewing quest selections made easier with improved background, color, and poi_names.
 	-Simple color coordination of interactive blocks or npcs.
 	-5 crafting slots positioned evenly.
-	-Removed Pop up of wandering into new location.
 	-Read schematics / magazines / books have read book icon of slight transparency and green
-	-A purple book icon that opens up Details on one page (With Zooming Option)!
-		-Magazine unlocks
-		-Books
-		-Unlocks from Schematics/Books
-		-Armor Details
 
 
 ______________________________________________________________________________________________________________________
 5.  CHANGELOG
+v5.0.1
+-Left out a conditional format associated with storages and my backpacks conflicting. Now fixed.
+
+v5.0.0
+-Localization fixes
+-Updated to utilize conditional formatting (big deal!).
+-Updated to account for version 2.2 regardless if you are using 2.2 or 2.1.
+-Significant simplification and re-orginization of Main Hud, addons and options.
+-Purple Book is now standalone along with several other features in their own modlets.
+-Default keeps the POI Entered popup. (There is now an optional remove modlet)
+-Default keeps the written weather alert. (There is now an optional remove modlet)
+
+v4.1.2
+-Added the new/missing stage loot cap icon under the location markers.
+-Fixed that chat input section when your message is more than one line to maintain the background.
+-Lots of visual errors and missplaced backgrounds/borders in purple book, even some things that were 1 pixel off.....
+-Updated the text about what to click to zoom in, for the magazines and armors.
+-When zoomed into magazines, the ones that are finished now maintain the green background when completed.
+-Under Armors, updated the sneak effectiveness numbers as they were buffed in v2.0.
+-Updated the descriptions of some of the armors.
+-Added more details in zoomed armors that are needed, like what are "fitness" items.
+-Quest selection window, wasn't tall enough.... fixed.
+
+v4.1.1
+-Renamed a bit hopefully for better understanding the difference between one with or without purple book.
+
 v4.1.0
 -Updated for V2!
 -Had to rework aspects of purple book due to more stable "button" system.
 -Fixed an error since the inception of Purple Book, lol.
 -Purple book's "zoom in feature" are now buttons in a header to easily swap between them.
-****THIS IS BETA VERSION, as STORM ALERTS are not yet SHOWING***
+
 
 v4.0.0
 -Found missing translations
