@@ -1,39 +1,7 @@
 <configs>
 
-<append xpath="/blocks">
-	<block name="Bild1">
-		<property name="Model" value="#@modfolder:Resources/Bild1.unity3d?Bild1.prefab"/>
-		<property name="CustomIcon" value="Bild1"/>
-		<property name="MultiBlockDim" value="1,1,1"/>
-		<property name="Material" value="Mstone"/>
-		<property name="MaxDamage" value="100"/>
-		<property name="FuelValue" value="300"/>
-		<property name="OnlySimpleRotations" value="false"/>
-		<property class="RepairItems"><property name="resourceCobblestones" value="10"/></property>
-			<drop event="Destroy" name="resourceBrokenGlass" count="1,3"/>
-			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
-		<property name="LightOpacity" value="1"/>
-		<property name="Shape" value="ModelEntity"/>
-		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-		<property name="ModelOffset" value="0,0,0"/>   
-		<property name="PlaceEverywhere" value="true"/>
-	</block>
-	
-	<block name="Bild1BlockVariantHelper">
-		<property name="Extends" value="Bild1"/>
-		<property name="CreativeMode" value="Player"/>
-		<property name="CustomIcon" value="Bild1"/>
-		<property name="ItemTypeIcon" value="all_blocks"/>
-		<property name="SelectAlternates" value="true"/>
-		<property name="PlaceAltBlockValue" value="Bild1,paintingBen,paintingLorien,paintingNoah,paintingDuke,paintingKen"/>
-		<property name="SortOrder1" value="U200"/>
-		<property name="SortOrder2" value="0000"/>
-		<property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
-	</block>
-	
-</append>
 
-Knochen Club finden
+<!-- Knochen Club finden -->
 <insertBefore xpath="/blocks/block[@name='goreBlockAnimal' or @name='goreBlockHumanBones']/drop[@event='Destroy']">
 
 <drop event="Harvest" name="meleeWpnClubT0BoneClub" count="0,1" tag="butcherHarvest"/>
@@ -41,7 +9,7 @@ Knochen Club finden
 </insertBefore>
 
 
-bookSign
+<!-- bookSign -->
 <setattribute xpath="/blocks/block[@name='signShopBookStore']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?bookSignPrefab.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='signShopBookStoreLit']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?bookSignLitPrefab.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='signShopBookStoreWall']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?bookSignWallPrefab.prefab</setattribute>
@@ -52,7 +20,7 @@ bookSign
 <setattribute xpath="/blocks/block[@name='signShopBookStoreLargeWallLit']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?bookSignLitWall_LargePrefab.prefab</setattribute>
 
 
-Gas Shop
+<!-- Gas Shop -->
 <setattribute xpath="/blocks/block[@name='signShopGas']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?gasSignPrefab.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='signShopGasLit']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?gasSignLitPrefab.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='signShopGasWall']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?gasSignWallPrefab.prefab</setattribute>
@@ -63,7 +31,7 @@ Gas Shop
 <setattribute xpath="/blocks/block[@name='signShopGasLargeWallLit']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?gasSignLitWall_LargePrefab.prefab</setattribute>
 
 
-ShopGrocery
+<!-- ShopGrocery -->
 <setattribute xpath="/blocks/block[@name='signShopGrocery']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?grocerySignPrefab.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='signShopGroceryLit']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?grocerySignLitPrefab.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='signShopGroceryWall']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?grocerySignWallPrefab.prefab</setattribute>
@@ -74,7 +42,7 @@ ShopGrocery
 <setattribute xpath="/blocks/block[@name='signShopGroceryLargeWallLit']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?grocerySignLitWall_LargePrefab.prefab</setattribute>
 
 
-GunStore
+<!-- GunStore -->
 <setattribute xpath="/blocks/block[@name='signShopGunStore']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?gunStoreSignPrefab.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='signShopGunStoreLit']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?gunStoreSignLitPrefab.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='signShopGunStoreWall']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?gunStoreSignWallPrefab.prefab</setattribute>
@@ -86,7 +54,7 @@ GunStore
 
 
 
-moPowerElectronics
+<!-- moPowerElectronics -->
 <setattribute xpath="/blocks/block[@name='signShopMoPowerElectronics']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?moPowerElectronicsSignPrefab.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='signShopMoPowerElectronicsLit']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?moPowerElectronicsSignLitPrefab.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='signShopMoPowerElectronicsWall']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?moPowerElectronicsSignWallPrefab.prefab</setattribute>
@@ -97,7 +65,7 @@ moPowerElectronics
 <setattribute xpath="/blocks/block[@name='signShopMoPowerElectronicsLargeWallLit']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?moPowerElectronicsSignLitWall_LargePrefab.prefab</setattribute>
 
 
-pharmacy
+<!-- pharmacy -->
 <setattribute xpath="/blocks/block[@name='signShopPharmacy']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?pharmacySignPrefab.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='signShopPharmacyLit']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?pharmacySignLitPrefab.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='signShopPharmacyWall']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?pharmacySignWallPrefab.prefab</setattribute>
@@ -108,7 +76,7 @@ pharmacy
 <setattribute xpath="/blocks/block[@name='signShopPharmacyLargeWallLit']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?pharmacySignLitWall_LargePrefab.prefab</setattribute>
 
 
-ShopSavageCountry
+<!-- ShopSavageCountry -->
 <setattribute xpath="/blocks/block[@name='signShopSavageCountry']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?savageCountrySignPrefab.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='signShopSavageCountryLit']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?savageCountrySignLitPrefab.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='signShopSavageCountryWall']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?savageCountrySignWallPrefab.prefab</setattribute>
@@ -119,7 +87,7 @@ ShopSavageCountry
 <setattribute xpath="/blocks/block[@name='signShopSavageCountryLargeWallLit']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?savageCountrySignLitWall_LargePrefab.prefab</setattribute>
 
 
-ShopToolStore
+<!-- ShopToolStore -->
 <setattribute xpath="/blocks/block[@name='signShopToolStore']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?toolSignPrefab.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='signShopToolStoreLit']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?toolSignLitPrefab.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='signShopToolStoreWall']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?toolSignWallPrefab.prefab</setattribute>
@@ -131,7 +99,7 @@ ShopToolStore
 
 
 
-Post office
+<!-- Post office -->
 <setattribute xpath="/blocks/block[@name='signShopPostOfficeSignLit']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?postalOfficeSignLitPrefab.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='signShopPostOfficeSignWallLit']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?postalOfficeSignLitWallPrefab.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='signShopPostOfficeSignLargeLit']/property[@name='Model']" name="value">#@modfolder:Resources/bookSign.unity3d?postalOfficeSignLit_LargePrefab.prefab</setattribute>
@@ -147,59 +115,75 @@ Post office
 <!-- <setattribute xpath="/blocks/block[@name='signPosterMovieMammasJustice']/property[@name='Model']" name="value">#@modfolder:Resources/poster1.unity3d?signPosterMovieMammasJustice.prefab</setattribute> -->
 <!-- <setattribute xpath="/blocks/block[@name='signPosterMovieSexualTension']/property[@name='Model']" name="value">#@modfolder:Resources/poster1.unity3d?signPosterMovieSexualTension.prefab</setattribute> -->
 
-Gemälde
+<!-- Gemälde -->
 <setattribute xpath="/blocks/block[@name='paintingBen']/property[@name='Model']" name="value">#@modfolder:Resources/poster1.unity3d?painting_ben_bommel.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='paintingLorien']/property[@name='Model']" name="value">#@modfolder:Resources/poster1.unity3d?painting_lorien_bf.prefab</setattribute>
-<!--<setattribute xpath="/blocks/block[@name='paintingDerek']/property[@name='Model']" name="value">#@modfolder:Resources/poster1.unity3d?painting_derek_bbb.prefab</setattribute>-->
+<setattribute xpath="/blocks/block[@name='paintingDerek']/property[@name='Model']" name="value">#@modfolder:Resources/poster1.unity3d?painting_derek_bbb.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='paintingNoah']/property[@name='Model']" name="value">#@modfolder:Resources/poster1.unity3d?painting_noah_stef.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='paintingDuke']/property[@name='Model']" name="value">#@modfolder:Resources/poster1.unity3d?painting_duke.prefab</setattribute>
 <setattribute xpath="/blocks/block[@name='paintingKen']/property[@name='Model']" name="value">#@modfolder:Resources/poster1.unity3d?painting_ken_anti.prefab</setattribute>
 
-Wanted<!--
-<setattribute xpath="/blocks/block[@name='signPosterWantedMissing01']/property[@name='Model']" name="value">#@modfolder:Resources/poster1.unity3d?Wanted1.prefab</setattribute>
-<setattribute xpath="/blocks/block[@name='signPosterWantedMissing02']/property[@name='Model']" name="value">#@modfolder:Resources/poster1.unity3d?Wanted2.prefab</setattribute>
-<setattribute xpath="/blocks/block[@name='signPosterWantedMissing03']/property[@name='Model']" name="value">#@modfolder:Resources/poster1.unity3d?Wanted3.prefab</setattribute>
--->
-Toilet<!--
-<setattribute xpath="/blocks/block[@name='signBathroomSignMenCeilingMount']/property[@name='Model']" name="value">#@modfolder:Resources/poster1.unity3d?bathroomSignMenCeilinglmountPrefab.prefab</setattribute>
-<setattribute xpath="/blocks/block[@name='signBathroomSignMenWallMount']/property[@name='Model']" name="value">#@modfolder:Resources/poster1.unity3d?bathroomSignMenWallmountPrefab.prefab</setattribute>
--->
-<!--
-<setattribute xpath="/blocks/block[@name='flagPoleAmerican']/property[@name='Model']" name="value">#@modfolder:Resources/flag.unity3d?flagPoleAmericanPrefab.prefab</setattribute>
-<setattribute xpath="/blocks/block[@name='flagPoleTrader']/property[@name='Model']" name="value">#@modfolder:Resources/flag.unity3d?flag_poleTraderPrefab.prefab</setattribute>
 
-<setattribute xpath="/blocks/block[@name='signNationalPark']/property[@name='Model']" name="value">#@modfolder:Resources/schilder.unity3d?sign_national_parkPrefab.prefab</setattribute>
--->
-
-Creativ_Blöcke Freischalten
+<!-- Creativ_Blöcke Freischalten -->
 <setattribute xpath="/blocks/block/property[@name='CreativeMode']" name="value">Player</setattribute>
 
-Deco Aufheben:
+<!-- Deco Aufheben: -->
+
 <!-- Bär aufheben-->
 <append xpath="/blocks/block[@name='woodenBear']">
     <property name="CanPickup" value="true" />
 </append>
 
-Deco Schädel mitnehmen
+<!-- Deco Schädel mitnehmen -->
 <append xpath="/blocks/block[@name='decoCowSkull']">
     <property name="CanPickup" value="true" />
 </append>
 
-Bilder mitnehmen
+<!-- Bilder mitnehmen -->
 <append xpath="/blocks/block[@name='pictureFrame_01a']">
     <property name="CanPickup" value="true" />
 </append>
 
-Gemälde mitnehmen
+<!-- Gemälde mitnehmen -->
 <append xpath="/blocks/block[@name='paintingBen']">
     <property name="CanPickup" value="true" />
 </append>
 
-Manhole in alle richtungen drehen
+<!-- Manhole in alle richtungen drehen -->
 <setattribute xpath="/blocks/block[@name='manholeHatch']/property[@name='OnlySimpleRotations']" name="value" >false</setattribute>
 
 
 <append xpath="/blocks">
+
+<block name="Bild1">
+	<property name="Model" value="#@modfolder:Resources/Bild1.unity3d?Bild1.prefab"/>
+	<property name="CustomIcon" value="Bild1"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mstone"/>
+	<property name="MaxDamage" value="100"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems"><property name="resourceCobblestones" value="10"/></property>
+		<drop event="Destroy" name="resourceBrokenGlass" count="1,3"/>
+		<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="LightOpacity" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+</block>
+
+<block name="Bild1BlockVariantHelper">
+	<property name="Extends" value="Bild1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="Bild1"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="Bild1,paintingBen,paintingLorien,paintingNoah,paintingDuke,paintingKen"/>
+	<property name="SortOrder1" value="U200"/>
+	<property name="SortOrder2" value="0000"/>
+	<property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+</block>
 
 <!-- neuer sound anti-->
 <block name="radio_1">
