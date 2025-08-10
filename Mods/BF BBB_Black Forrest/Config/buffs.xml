@@ -151,7 +151,7 @@
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/OutdoorDecor/cowSkullPrefab.prefab" local_offset="0,0.01,0.15" local_rotation="90,0,0" local_scale="0.5,0.5,0.5" parent_transform="Head"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_torch_wall" local_offset="0.25,0,0.1" local_rotation="0,0,0" parent_transform="Head"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/MGL 201.unity3d?MGL 201.prefab" local_offset="-0.15,-0.05,0" local_rotation="0,0,-80" parent_transform="LeftHand"/>	
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/MGL 202.unity3d?MGL 202.prefab" local_offset="-0.15,-0.05,0" local_rotation="0,0,-80" parent_transform="LeftHand"/>	
 			</effect_group>
 		</buff>
 

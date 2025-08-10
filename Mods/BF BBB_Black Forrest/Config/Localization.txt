@@ -39,7 +39,7 @@ LampenzombieFeralBBB,"Feral Hazmat 2.0 BBB","Feral Hazmat 2.0 BBB"
 WineZombiFeralBBB,"Feral Moe 2.0 BBB","Feral Moe 2.0 BBB"
 LampenzombieRadiatedBBB,"Radiated Hazmat 2.0 BBB","Radiated Hazmat 2.0 BBB"
 WineZombiRadiatedBBB,"Radiated Moe 2.0 BBB","Radiated Moe 2.0 BBB"
-AntipaszombieBBB,"Grumpy Antipas","Böser Antipas"
+AntipaszombieBBB,"Grumpy Antipas","Boeser Antipas"
 
 medicalT4-1,"Tier 4 Fog Whitw","Stufe 4 Nebel Weiss"
 medicalT4-2,"Tier 4 Fog Red","Stufe 4 Nebel Rot"
