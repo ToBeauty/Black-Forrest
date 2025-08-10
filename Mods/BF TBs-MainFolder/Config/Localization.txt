@@ -1,6 +1,7 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
 
 resourceUranium,items,resources,,Uranium ,Uranium,,,,,,,,,,,,,,
+resourceUraniumDesc,items,resources,,,A rare special Resource.\n\nCan only harvested in a special Poi.,,"Eine spezielle Resource.\n\nKann nur in einem bestimmten Poi gefunden werden."
 resourceForgedUranium,items,resources,,Forged Uranium ,Geschmiedetes Uranium,,,,,,,,,,,,,,
 ammo12mmUraniumBulletBall,items,resources,,12mm Bullet ,12mm Patrone,,,,,,,,,,,,,,
 resourceUraniumBulletTip,items,resources,,Uranium Bullet Tip ,Uraniumgeschoss Spitze,,,,,,,,,,,,,,
@@ -9,4 +10,8 @@ resourceUraniumGrenadeTip,items,resources,,Uraniumgrenade Tip ,Uraniumgranat Spi
 resourceUraniumGrenadeCasing,items,resources,,Uraniumgrenade Casing ,Uraniumgranat Hülse,,,,,,,,,,,,,,
 ammoUraniumGrenade40mm,items,resources,,Uraniumgrenade 40mm ,Uraniumgranate 40mm,,,,,,,,,,,,,,
 gunMGT3M249,items,Gun,,,M249 Machine Gun modified for 12mm ammo,,M249-Maschinengewehr modifiziert für 12mm Patronen,,,,,,,,,,,,,,
+gunMGT3M249Desc,items,Gun,,,Machine guns are somewhat cumbersome to use but excel at automatic fire. This one uses 12mm ammo.\n\nRepair with a Repair Kit.\nScrap to Machine Gun Parts.,,"Maschinengewehre sind etwas unhandlich, zeichnen sich aber durch hervorragendes automatisches Feuer aus. Dieses verwendet 12-mm-Munition.\n\nKann mit einem Reparaturkit repariert werden.\nKann zu Maschinengewehrteilen zerlegt werden."
 gunExplosivesT3MGL210,items,Gun,,,Grenade Launcher,,Granatwerfer,,,,,,,,,,,,,,
+gunExplosivesT3MGL210Desc,items,Gun,,,A Grenade Launcher shoots 40mm rocket propelled grenades.\n\nRepair with a Repair Kit.\nScrap to Rocket Launcher parts.,,"Ein Granatwerfer, der raketengetriebene 40mm Granaten abfeuert.\n\nKann mit einem Reparaturkit repariert werden.\nKann zu Raketenwerferteilen zerlegt werden."
+ThompsonSMG,items,Gun,,,Thompson Submachine Gun,,Thompson Machinenpistole,,,,,,,,,,,,,,
+ThompsonSMGDesc,items,Gun,,,A Thompson Submachinegun rechamber in 44 magnum.\n\nRepair with a Repair Kit.\nScrap to Pistol Parts.,,"Eine Thompson Maschinenpistole Model 44 Magnum.\n\nKann mit einem Reperaturkit instand gesetzt werden.\nKann zu Pistolenteilen zerlegt werden."

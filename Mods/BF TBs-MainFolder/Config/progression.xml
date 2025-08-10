@@ -72,13 +72,13 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="11,100" value="1" tags="gunMGT1AK47"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="26,100" value="1" tags="gunMGT2TacticalAR"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="61,100" value="1" tags="gunMGT3M60"/>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="gunMGT3M249"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="61,100" value="1" tags="gunMGT3M249"/>
 
 			<passive_effect name="CraftingTier" operation="base_add" level="2,4,6,8,10,100" value="1,2,3,4,5,5" tags="gunMGT0PipeMachineGun"/>
 			<passive_effect name="CraftingTier" operation="base_add" level="13,16,19,22,25,100" value="1,2,3,4,5,5" tags="gunMGT1AK47"/>
 			<passive_effect name="CraftingTier" operation="base_add" level="32,39,46,53,60,100" value="1,2,3,4,5,5" tags="gunMGT2TacticalAR"/>
 			<passive_effect name="CraftingTier" operation="base_add" level="68,76,84,92,100" value="1,2,3,4,5" tags="gunMGT3M60"/>
-			<passive_effect name="CraftingTier" operation="base_add" level="70,85,80,90,100" value="1,2,3,4,5" tags="gunMGT3M249"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="68,76,84,92,100" value="1,2,3,4,5" tags="gunMGT3M249"/>
 		</effect_group>
 	
 	
