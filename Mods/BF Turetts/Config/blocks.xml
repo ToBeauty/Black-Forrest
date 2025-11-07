@@ -48,7 +48,7 @@
 	<property name="Path" value="solid"/>
 	<property name="EconomicValue" value="3000"/>
 	<property name="EconomicBundleSize" value="1"/>
-	<property name="TraderStageTemplate" value="electricTier3"/><!-- autoTurret -->
+	<property name="TraderStageTemplate" value="overpoweredStuff"/><!-- autoTurret -->
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="12"/>
 		<property name="resourceMechanicalParts" value="2"/>
@@ -114,7 +114,7 @@
 	<property name="Path" value="solid"/>
 	<property name="EconomicValue" value="3000"/>
 	<property name="EconomicBundleSize" value="1"/>
-	<property name="TraderStageTemplate" value="electricTier3"/><!-- autoTurret -->
+	<property name="TraderStageTemplate" value="overpoweredStuff"/><!-- autoTurret -->
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="12"/>
 		<property name="resourceMechanicalParts" value="2"/>
@@ -180,7 +180,7 @@
 	<property name="Path" value="solid"/>
 	<property name="EconomicValue" value="3000"/>
 	<property name="EconomicBundleSize" value="1"/>
-	<property name="TraderStageTemplate" value="electricTier3"/><!-- autoTurret -->
+	<property name="TraderStageTemplate" value="overpoweredStuff"/><!-- autoTurret -->
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="12"/>
 		<property name="resourceMechanicalParts" value="2"/>
@@ -202,14 +202,14 @@
 
 
 
-<block name="autoThompsonTurret 44">
+<block name="autoThompsonTurret44">
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="Ranged"/>
 	<property name="ItemTypeIcon" value="star"/>
 	<property name="CustomIcon" value="shotgunTurret"/> 
 	<property name="RequiredPower" value="15"/>
 	<property name="AmmoItem" value="ammo44MagnumBulletBallThompsonTurett"/>
-	property name="TurnSpeed" value="22.5"/>
+	<property name="TurnSpeed" value="22.5"/>
 	<property name="MaxDistance" value="30"/>
 	<property name="EntityDamage" value="55"/><!-- 188 dps, 213 dps burst -->
 	<property name="BlockDamage" value="1"/>
@@ -248,7 +248,7 @@
 	<property name="Path" value="solid"/>
 	<property name="EconomicValue" value="3000"/>
 	<property name="EconomicBundleSize" value="1"/>
-	<property name="TraderStageTemplate" value="electricTier3"/><!-- autoTurret -->
+	<property name="TraderStageTemplate" value="overpoweredStuff"/><!-- autoTurret -->
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="12"/>
 		<property name="resourceMechanicalParts" value="2"/>
@@ -268,14 +268,14 @@
 	<property name="SoundPlace" value="autoturret_place"/>
 </block>
 
-<block name="autoThompsonTurret 44HP">
+<block name="autoThompsonTurret44HP">
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="Ranged"/>
 	<property name="ItemTypeIcon" value="star"/>
 	<property name="CustomIcon" value="shotgunTurret"/> 
 	<property name="RequiredPower" value="15"/>
 	<property name="AmmoItem" value="ammo44MagnumBulletBallHPThompsonTurett"/>
-	property name="TurnSpeed" value="22.5"/>
+	<property name="TurnSpeed" value="22.5"/>
 	<property name="MaxDistance" value="30"/>
 	<property name="EntityDamage" value="55"/><!-- 188 dps, 213 dps burst -->
 	<property name="BlockDamage" value="1"/>
@@ -314,7 +314,7 @@
 	<property name="Path" value="solid"/>
 	<property name="EconomicValue" value="3000"/>
 	<property name="EconomicBundleSize" value="1"/>
-	<property name="TraderStageTemplate" value="electricTier3"/><!-- autoTurret -->
+	<property name="TraderStageTemplate" value="overpoweredStuff"/><!-- autoTurret -->
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="12"/>
 		<property name="resourceMechanicalParts" value="2"/>
@@ -334,14 +334,14 @@
 	<property name="SoundPlace" value="autoturret_place"/>
 </block>
 
-<block name="autoThompsonTurret 44AP">
+<block name="autoThompsonTurret44AP">
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="Ranged"/>
 	<property name="ItemTypeIcon" value="star"/>
 	<property name="CustomIcon" value="shotgunTurret"/> 
 	<property name="RequiredPower" value="15"/>
 	<property name="AmmoItem" value="ammo44MagnumBulletBallAPThompsonTurett"/>
-	property name="TurnSpeed" value="22.5"/>
+	<property name="TurnSpeed" value="22.5"/>
 	<property name="MaxDistance" value="30"/>
 	<property name="EntityDamage" value="55"/><!-- 188 dps, 213 dps burst -->
 	<property name="BlockDamage" value="1"/>
@@ -380,7 +380,7 @@
 	<property name="Path" value="solid"/>
 	<property name="EconomicValue" value="3000"/>
 	<property name="EconomicBundleSize" value="1"/>
-	<property name="TraderStageTemplate" value="electricTier3"/><!-- autoTurret -->
+	<property name="TraderStageTemplate" value="overpoweredStuff"/><!-- autoTurret -->
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="12"/>
 		<property name="resourceMechanicalParts" value="2"/>

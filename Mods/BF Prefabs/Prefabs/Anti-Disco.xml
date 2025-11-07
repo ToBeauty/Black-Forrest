@@ -25,7 +25,7 @@
   <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # # # # # # # # # # # # # # # " />
   <property name="DuplicateRepeatDistance" value="200" />
   <property class="Stats">
-    <property name="LightsVolume" value="816520.2" />
+    <property name="LightsVolume" value="816519.2" />
     <property name="TotalVertices" value="1404254" />
     <property name="TotalTriangles" value="653509" />
     <property class="BlockEntities">

@@ -1,10 +1,5 @@
 <configs>
 	
-	<!-- Elite Zombie Loot Containers -->
-	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='TimeStayAfterDeath']/@value">1800</set>
-    <set xpath="/entity_classes/entity_class[@name='EntityLootContainerStrong']/property[@name='TimeStayAfterDeath']/@value">1800</set>
-	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerBoss']/property[@name='TimeStayAfterDeath']/@value">1800</set>
-
 	<append xpath="/entity_classes">  
 
 		<!-- *** xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->

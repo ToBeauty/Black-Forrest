@@ -2,7 +2,7 @@
 
 <append xpath="/recipes">
 
-<recipe name="autoThompsonTurret 44" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable"> <!-- trap -->
+<recipe name="autoThompsonTurret44" count="1" craft_area="workbench" tags="perkElectrician,learnable"> <!-- trap -->
 	<ingredient name="motionsensor" count="1"/>
 	<ingredient name="resourceForgedSteel" count="30"/>
 	<ingredient name="gunHandgunT1PistolParts" count="3"/>
@@ -13,7 +13,7 @@
 	</effect_group>
 </recipe>
 
-<recipe name="autoThompsonTurret 44HP" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable"> <!-- trap -->
+<recipe name="autoThompsonTurret44HP" count="1" craft_area="workbench" tags="perkElectrician,learnable"> <!-- trap -->
 	<ingredient name="motionsensor" count="1"/>
 	<ingredient name="resourceForgedSteel" count="30"/>
 	<ingredient name="gunHandgunT1PistolParts" count="3"/>
@@ -24,7 +24,7 @@
 	</effect_group>
 </recipe>
 
-<recipe name="autoThompsonTurret 44AP" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable"> <!-- trap -->
+<recipe name="autoThompsonTurret44AP" count="1" craft_area="workbench" tags="perkElectrician,learnable"> <!-- trap -->
 	<ingredient name="motionsensor" count="1"/>
 	<ingredient name="resourceForgedSteel" count="30"/>
 	<ingredient name="gunHandgunT1PistolParts" count="3"/>
@@ -36,7 +36,7 @@
 </recipe>
 
 
-<recipe name="autoTurret9mm" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable"> <!-- trap -->
+<recipe name="autoTurret9mm" count="1" craft_area="workbench" tags="perkElectrician,learnable"> <!-- trap -->
 	<ingredient name="motionsensor" count="1"/>
 	<ingredient name="resourceForgedSteel" count="30"/>
 	<ingredient name="gunHandgunT1PistolParts" count="3"/>
@@ -47,7 +47,7 @@
 	</effect_group>
 </recipe>
 
-<recipe name="autoTurret9mmHP" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable"> <!-- trap -->
+<recipe name="autoTurret9mmHP" count="1" craft_area="workbench" tags="perkElectrician,learnable"> <!-- trap -->
 	<ingredient name="motionsensor" count="1"/>
 	<ingredient name="resourceForgedSteel" count="30"/>
 	<ingredient name="gunHandgunT1PistolParts" count="3"/>
@@ -58,7 +58,7 @@
 	</effect_group>
 </recipe>
 
-<recipe name="autoTurret9mmAP" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable"> <!-- trap -->
+<recipe name="autoTurret9mmAP" count="1" craft_area="workbench" tags="perkElectrician,learnable"> <!-- trap -->
 	<ingredient name="motionsensor" count="1"/>
 	<ingredient name="resourceForgedSteel" count="30"/>
 	<ingredient name="gunHandgunT1PistolParts" count="3"/>

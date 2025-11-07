@@ -27,11 +27,11 @@
   <property name="EditorGroups" value="house old" />
   <property class="Stats">
     <property name="LightsVolume" value="20489.63" />
-    <property name="TotalVertices" value="201394" />
-    <property name="TotalTriangles" value="89476" />
+    <property name="TotalVertices" value="201845" />
+    <property name="TotalTriangles" value="89610" />
     <property class="BlockEntities">
-      <property name="Vertices" value="194332" />
-      <property name="Triangles" value="84054" />
+      <property name="Vertices" value="194783" />
+      <property name="Triangles" value="84188" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="4098" />

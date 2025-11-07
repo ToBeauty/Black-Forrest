@@ -1,8 +1,8 @@
 key,English,German
 
-autoThompsonTurret 44,"Thompson Turett 44","Thompson Geschützturm 44"
-autoThompsonTurret 44HP,"Thompson Turett 44HP","Thompson Geschützturm 44HP"
-autoThompsonTurret 44AP,"Thompson Turett 44AP","Thompson Geschützturm 44AP"
+autoThompsonTurret44,"Thompson Turett 44","Thompson Geschützturm 44"
+autoThompsonTurret44HP,"Thompson Turett 44HP","Thompson Geschützturm 44HP"
+autoThompsonTurret44AP,"Thompson Turett 44AP","Thompson Geschützturm 44AP"
 ammo44MagnumBulletBallThompsonTurett,"TurettAmmo 44","Geschützturm Munition 44"
 ammo44MagnumBulletBallHPThompsonTurett,"TurettAmmo 44HP","Geschützturm Munition 44HP"
 ammo44MagnumBulletBallAPThompsonTurett,"TurettAmmo 44AP","Geschützturm Munition 44AP"
@@ -13,6 +13,17 @@ ammo9mmBulletBallTurett,"TurettAmmo 9mm","Geschützturm Munition 9mm"
 ammo9mmBulletHPTurett,"TurettAmmo 9mmHP","Geschützturm Munition 9mmHP"
 ammo9mmBulletAPTurett,"TurettAmmo 9mmAP","Geschützturm Munition 9mmAP"
 
+autoThompsonTurret44Desc,  "Auto-Turret which uses 0.44 inch magnum munition with range 30 m. This munition has to be bundeled in 900 packs.","Geschützturm, der 0.44 Zoll Magnum Munition verschießt mit 30 m Reichweite. Die Munition muss in 900er Paketen gebündelt sein."
+autoThompsonTurret44HPDesc,"Auto-Turret which uses 0.44 inch magnum High Power (tier 2) munition with range 30 m. This munition has to be bundeled in 900 packs.","Geschützturm, der 0.44 Zoll Magnum High Power (Tier 2) Munition verschießt mit 30 m Reichweite. Die Munition muss in 900er Paketen gebündelt sein."
+autoThompsonTurret44APDesc,"Auto-Turret which uses 0.44 inch magnum Armor Piercing (tier 3) munition with range 30 m. This munition has to be bundeled in 900 packs.","Geschützturm, der 0.44 Zoll Magnum Armor Piercing (Tier 3) Munition verschießt mit 30 m Reichweite. Die Munition muss in 900er Paketen gebündelt sein."
+ammo44MagnumBulletBallThompsonTurettDesc,  "These 900 packs of magnum ammo are meant for auto turrets.","Diese 900er Pakete von Magnum-Munition sind für Auto-Turrets gedacht."
+ammo44MagnumBulletBallHPThompsonTurettDesc,"These 900 packs of magnum ammo are meant for auto turrets. This is the 'High Power' (tier 2) type, doing 10% more damage.","Diese 900er Pakete von Magnum-Munition sind für Auto-Turrets gedacht. Dies ist der 'High Power' (Tier 2) Typ, der 10% mehr Schaden macht."
+ammo44MagnumBulletBallAPThompsonTurettDesc,"These 900 packs of magnum ammo are meant for auto turrets. This is the 'Armor Piercing' (tier 3) type, doing 20% more damage.","Diese 900er Pakete von Magnum-Munition sind für Auto-Turrets gedacht. Dies ist der 'Armor Piercing' (Tier 3) Typ, der 20% mehr Schaden macht."
+autoTurret9mmDesc,  "Auto-Turret which uses 9mm pistol munition with range 30 m. This munition has to be bundeled in 900 packs.","Geschützturm, der 9mm Pistolen-Munition verschießt mit 30 m Reichweite. Die Munition muss in 900er Paketen gebündelt sein."
+autoTurret9mmHPDesc,"Auto-Turret which uses 9mm pistol High Power (tier 2) munition with range 30 m. This munition has to be bundeled in 900 packs.","Geschützturm, der 9mm Pistolen High Power (Tier 2) Munition verschießt mit 30 m Reichweite. Die Munition muss in 900er Paketen gebündelt sein."
+autoTurret9mmAPDesc,"Auto-Turret which uses 9mm pistol Armor Piercing (tier 3) munition with range 30 m. This munition has to be bundeled in 900 packs.","Geschützturm, der 9mm Pistolen Armor Piercing (Tier 3) Munition verschießt mit 30 m Reichweite. Die Munition muss in 900er Paketen gebündelt sein."
+ammo9mmBulletBallTurettDesc,"These 900 packs of pistol ammo are meant for auto turrets.","Diese 900er Pakete von Pistolen-Munition sind für Auto-Turrets gedacht."
+ammo9mmBulletHPTurettDesc,  "These 900 packs of pistol ammo are meant for auto turrets. This is the 'High Power' (tier 2) type, doing 10% more damage.","Diese 900er Pakete von Pistolen-Munition sind für Auto-Turrets gedacht. Dies ist der 'High Power' (Tier 2) Typ, der 10% mehr Schaden macht."
+ammo9mmBulletAPTurettDesc,  "These 900 packs of pistol ammo are meant for auto turrets. This is the 'Armor Piercing' (tier 3) type, doing 20% more damage.","Diese 900er Pakete von Pistolen-Munition sind für Auto-Turrets gedacht. Dies ist der 'High Power' (Tier 2) Typ, der 10% mehr Schaden macht."
 
-
-
+perkElectricianRank5LongDesc, "Unlocks: SMG Auto Turrets (incl HP,AP), Thompson Turrets 44. \nCraft Level 6 Batteries and gain 75% XP from electrical trap kills."

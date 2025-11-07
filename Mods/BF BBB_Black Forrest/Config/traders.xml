@@ -1,14 +1,14 @@
 <configs>
-Thx M.Fox Gaming
+<!-- Thx M.Fox Gaming -->
 <insertBefore xpath="//trader_item_group[@name='constructionSupplies']" >
 	<trader_item_group name="GroupMD21" count="1">
-		<item name="meleeWpnClubT3MorgenSternClub" count="3,5"/>
-		<item name="radio_1BlockVariantHelper" count="3,5"/>
+		<item name="meleeWpnClubT3MorgenSternClub"/>
+		<item name="radio_1BlockVariantHelper" count="1,2"/>
 	</trader_item_group>
 </insertBefore>
 
 <append xpath="//trader_item_group[@name='constructionSupplies']">
-	<item group="GroupMD21" count="2,6"/>
+	<item group="GroupMD21" count="1,2"/>
 </append>
 
 <append xpath="/traders/trader_info[@id='1']/trader_items">
@@ -25,6 +25,17 @@ Thx M.Fox Gaming
 
 <append xpath="/traders/trader_info[@id='8']/trader_items">
 	<item group="GroupMD21" count="1,2"/>
+</append>
+
+<append xpath='//traderstage_templates'>
+	<traderstage_template name="overpoweredStuff">
+		<entry min="75"  max="9999" quality="0"/>
+		<entry min="75"  max="110" quality="1"/>
+		<entry min="90"  max="150" quality="2"/>
+		<entry min="110" max="200" quality="3"/>
+		<entry min="150" max="500" quality="4"/>
+		<entry min="200" max="9999" quality="5"/>
+	</traderstage_template>
 </append>
 
 </configs>

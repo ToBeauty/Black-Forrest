@@ -2,17 +2,17 @@
 
 <set xpath="/windows/window[@name='emptyInfoPanel']">
 
-		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
-			<sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="ui_game_symbol_search"/>
-			<label style="header.name" text="INSPECT" text_key="xuiInspect" />
-		</panel>
+	<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
+		<sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="ui_game_symbol_search"/>
+		<label style="header.name" text="INSPECT" text_key="xuiInspect" />
+	</panel>
 
-		<rect name="contentCraftingInfo" height="346" depth="1" pos="0,-46" >
-			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="603" height="346" color="[black]" type="sliced" fillcenter="false" />
-			<sprite color="[mediumGrey]" type="sliced" />
-			<texture depth="3" color="[white]" texture="@modfolder:UIAtlases/ItemIconAtlas/bfinfo.png" name="bgTexture" pos="2,-2" height="346" width="603" type="sliced" fillcenter="true" globalopacity="true" globalopacitymod="0.65" />
-			<label pos="30,-173" depth="1" name="descriptionText" width="565" height="340" text_key="xuiEmptyInfoPanelText"  justify="left" font_size="28" pivot="left" spacing_y="10" />
-		</rect>
+	<rect name="contentCraftingInfo" height="346" depth="1" pos="0,-46" >
+		<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="603" height="346" color="[black]" type="sliced" fillcenter="false" />
+		<sprite color="[mediumGrey]" type="sliced" />
+		<texture depth="3" color="[white]" texture="@modfolder:UIAtlases/ItemIconAtlas/bfinfo.png" name="bgTexture" pos="2,-2" height="346" width="603" type="sliced" fillcenter="true" globalopacity="true" globalopacitymod="0.65" />
+		<label pos="30,-173" depth="1" name="descriptionText" width="565" height="340" text_key="xuiEmptyInfoPanelText"  justify="left" font_size="28" pivot="left" spacing_y="10" />
+	</rect>
 		
 </set>
 
@@ -39,5 +39,11 @@
 	</window>
 </append>
 
+<!-- Game Start - Dukes Info -->
+<set xpath='//window[@name="messageBox"]/@height'>360</set>
+<set xpath='//window[@name="messageBox"]/panel[@name="content"]/@height'>275</set>
+<set xpath='//window[@name="messageBox"]/panel[@name="content"]/sprite[@name="backgroundMain"]/@height'>275</set>
+<set xpath='//window[@name="messageBox"]/panel[@name="content"]/rect[@name="btnLeft" ]/@pos'>0,-320</set>
+<set xpath='//window[@name="messageBox"]/panel[@name="content"]/rect[@name="btnRight"]/@pos'>360,-320</set>
 
 </configs>

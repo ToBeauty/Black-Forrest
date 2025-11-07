@@ -1,29 +1,19 @@
 <configs>
 
 	<!-- LootSack länger an boden liegt-->
-	<setattribute xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular' or @name='EntityLootContainerNurse' or @name='EntityLootContainerLab' or @name='EntityLootContainerUtility' or @name='EntityLootContainerSoldier' or @name='EntityLootContainerThug' or @name='EntityLootContainerStrong' or @name='EntityLootContainerBoss']/property[@name='TimeStayAfterDeath']" name="value" >2400</setattribute>
-
+	<setattribute xpath="/entity_classes/entity_class[starts-with(@name,'EntityLootContainer')]/property[@name='TimeStayAfterDeath']" name="value" >3600</setattribute>
 
 	<!-- knochen bei animals finden -->
-	<insertAfter xpath="/entity_classes/entity_class[@name='animalStag']/drop[@event='Harvest']">
-	<drop event="Harvest" name="meleeWpnClubT0BoneClub" tag="butcherHarvest" prob=".1" count="1"/>
+	<insertAfter xpath="/entity_classes/entity_class[
+			@name='animalStag'
+		or	@name='animalBear'
+		or	@name='animalBearSmall'
+		or	@name='animalWolf'
+		or	@name='animalCoyote'
+		or	@name='animalMountainLion'
+		]/drop[@event='Harvest']">
+		<drop event="Harvest" name="meleeWpnClubT0BoneClub" tag="butcherHarvest" prob=".1" count="1"/>
 	</insertAfter>
-	<insertAfter xpath="/entity_classes/entity_class[@name='animalBear']/drop[@event='Harvest']">
-	<drop event="Harvest" name="meleeWpnClubT0BoneClub" tag="butcherHarvest" prob=".1" count="1"/>
-	</insertAfter>
-	<insertAfter xpath="/entity_classes/entity_class[@name='animalBearSmall']/drop[@event='Harvest']">
-	<drop event="Harvest" name="meleeWpnClubT0BoneClub" tag="butcherHarvest" prob=".1" count="1"/>
-	</insertAfter>
-	<insertAfter xpath="/entity_classes/entity_class[@name='animalWolf']/drop[@event='Harvest']">
-	<drop event="Harvest" name="meleeWpnClubT0BoneClub" tag="butcherHarvest" prob=".1" count="1"/>
-	</insertAfter>
-	<insertAfter xpath="/entity_classes/entity_class[@name='animalCoyote']/drop[@event='Harvest']">
-	<drop event="Harvest" name="meleeWpnClubT0BoneClub" tag="butcherHarvest" prob=".1" count="1"/>
-	</insertAfter>
-	<insertAfter xpath="/entity_classes/entity_class[@name='animalMountainLion']/drop[@event='Harvest']">
-	<drop event="Harvest" name="meleeWpnClubT0BoneClub" tag="butcherHarvest" prob=".1" count="1"/>
-	</insertAfter>
-
 
 	<append xpath="/entity_classes">
 
@@ -39,8 +29,6 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieLuckyHaseBuffBBB"/>
 			</effect_group>
 		</entity_class>
-
-
 
 		<!-- Normale Zombies -->
 

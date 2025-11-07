@@ -55,7 +55,7 @@
 	<property name="JumpMaxDistance" value="11, 13"/> <!-- Spider -->
 	<property name="PainResistPerHit" value=".8"/>
 	
-	<property name="TimeStayAfterDeath" value="60"/>
+	<property name="TimeStayAfterDeath" value="600"/>
 	<property name="ExperienceGain" value="600"/>
 
 	<property name="HandItem" value="meleeHandAnimalDireWolf"/>

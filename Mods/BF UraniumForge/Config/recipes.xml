@@ -2,73 +2,73 @@
 
 	<append xpath="/recipes">
 	
-	<recipe name="resourceForgedUranium" count="1" material_based="true" craft_area="uraniumforge" is_trackable="false" tags="perkAdvancedEngineering" craft_tool="toolForgeCrucible">
-	<ingredient name="unit_lead" count="25"/>
-	<ingredient name="unit_clay" count="25"/>
-	<ingredient name="unit_uranium" count="50"/>
-	<effect_group>
-		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="unit_clay,unit_lead,unit_uranium"/>
-	</effect_group>
-</recipe>
+		<recipe name="resourceForgedUranium" count="1" material_based="true" craft_area="uraniumforge" is_trackable="false" tags="perkAdvancedEngineering" craft_tool="toolForgeCrucible">
+			<ingredient name="unit_lead" count="25"/>
+			<ingredient name="unit_clay" count="25"/>
+			<ingredient name="unit_uranium" count="50"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="unit_clay,unit_lead,unit_uranium"/>
+			</effect_group>
+		</recipe>
 
-<recipe name="resourceUraniumBulletTip" count="1" material_based="true" craft_area="uraniumforge" is_trackable="false" tags="perkAdvancedEngineering" craft_tool="toolForgeCrucible">
-	<ingredient name="unit_lead" count="2"/>
-	<ingredient name="unit_clay" count="2"/>
-	<ingredient name="unit_uranium" count="10"/>
-	<effect_group>
-		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="unit_clay,unit_lead,unit_uranium"/>
-	</effect_group>
-</recipe>
+		<recipe name="resourceUraniumBulletTip" count="1" material_based="true" craft_area="uraniumforge" is_trackable="false" tags="perkAdvancedEngineering" craft_tool="toolForgeCrucible">
+			<ingredient name="unit_lead" count="2"/>
+			<ingredient name="unit_clay" count="2"/>
+			<ingredient name="unit_uranium" count="10"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="unit_clay,unit_lead,unit_uranium"/>
+			</effect_group>
+		</recipe>
 
-<recipe name="resourceUraniumBulletCasing" count="1" material_based="true" craft_area="uraniumforge" is_trackable="false" tags="perkAdvancedEngineering" craft_tool="toolForgeCrucible">
-	<ingredient name="unit_lead" count="2"/>
-	<ingredient name="unit_clay" count="22"/>
-	<ingredient name="unit_uranium" count="10"/>
-	<effect_group>
-		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="unit_clay,unit_lead,unit_uranium"/>
-	</effect_group>
-</recipe>
+		<recipe name="resourceUraniumBulletCasing" count="1" material_based="true" craft_area="uraniumforge" is_trackable="false" tags="perkAdvancedEngineering" craft_tool="toolForgeCrucible">
+			<ingredient name="unit_lead" count="2"/>
+			<ingredient name="unit_clay" count="22"/>
+			<ingredient name="unit_uranium" count="10"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="unit_clay,unit_lead,unit_uranium"/>
+			</effect_group>
+		</recipe>
 
-<recipe name="resourceUraniumGrenadeTip" count="1" material_based="true" craft_area="uraniumforge" is_trackable="false" tags="perkAdvancedEngineering" craft_tool="toolForgeCrucible">
-	<ingredient name="unit_lead" count="25"/>
-	<ingredient name="unit_clay" count="25"/>
-	<ingredient name="unit_uranium" count="25"/>
-	<effect_group>
-		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="unit_clay,unit_lead,unit_uranium"/>
-	</effect_group>
-</recipe>
+		<recipe name="resourceUraniumGrenadeTip" count="1" material_based="true" craft_area="uraniumforge" is_trackable="false" tags="perkAdvancedEngineering" craft_tool="toolForgeCrucible">
+			<ingredient name="unit_lead" count="25"/>
+			<ingredient name="unit_clay" count="25"/>
+			<ingredient name="unit_uranium" count="25"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="unit_clay,unit_lead,unit_uranium"/>
+			</effect_group>
+		</recipe>
 
-<recipe name="resourceUraniumGrenadeCasing" count="1" material_based="true" craft_area="uraniumforge" is_trackable="false" tags="perkAdvancedEngineering" craft_tool="toolForgeCrucible">
-	<ingredient name="unit_lead" count="25"/>
-	<ingredient name="unit_clay" count="25"/>
-	<ingredient name="unit_uranium" count="25"/>
-	<effect_group>
-		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="unit_clay,unit_lead,unit_uranium"/>
-	</effect_group>
-</recipe>
+		<recipe name="resourceUraniumGrenadeCasing" count="1" material_based="true" craft_area="uraniumforge" is_trackable="false" tags="perkAdvancedEngineering" craft_tool="toolForgeCrucible">
+			<ingredient name="unit_lead" count="25"/>
+			<ingredient name="unit_clay" count="25"/>
+			<ingredient name="unit_uranium" count="25"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="unit_clay,unit_lead,unit_uranium"/>
+			</effect_group>
+		</recipe>
 
-<recipe name="ammo12mmUraniumBulletBall" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<recipe name="ammo12mmUraniumBulletBall" count="1" craft_area="workbench" tags="workbenchCrafting">
 			<ingredient name="resourceUraniumBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="2"/>
 			<ingredient name="resourceUraniumBulletCasing" count="1"/>
 		</recipe>
 		
 		<recipe name="ammoUraniumGrenade40mm" count="1" craft_time="40" craft_area="workbench" tags="workbenchCrafting">
-	<ingredient name="resourceUraniumGrenadeTip" count="1"/>
-	<ingredient name="resourceGunPowder" count="15"/>
-	<ingredient name="resourceDuctTape" count="2"/>
-	<ingredient name="ammoGasCan" count="250"/>
-	<ingredient name="resourceUraniumGrenadeCasing" count="1"/>
-</recipe>
+			<ingredient name="resourceUraniumGrenadeTip" count="1"/>
+			<ingredient name="resourceGunPowder" count="15"/>
+			<ingredient name="resourceDuctTape" count="2"/>
+			<ingredient name="ammoGasCan" count="250"/>
+			<ingredient name="resourceUraniumGrenadeCasing" count="1"/>
+		</recipe>
 
-<recipe name="uraniumforge" count="1" craft_area="workbench" tags="workbenchCrafting">
-	<ingredient name="toolBeaker" count="1"/>
-	<ingredient name="resourceForgedIron" count="100"/>
-	<ingredient name="toolCookingPot" count="3"/>
-	<ingredient name="resourceMetalPipe" count="30"/>
-	<ingredient name="resourceRockSmall" count="200"/>
-</recipe>
+		<recipe name="uraniumforge" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="toolBeaker" count="1"/>
+			<ingredient name="resourceForgedIron" count="100"/>
+			<ingredient name="toolCookingPot" count="3"/>
+			<ingredient name="resourceMetalPipe" count="30"/>
+			<ingredient name="resourceRockSmall" count="200"/>
+		</recipe>
 
-</append>
+	</append>
 
 </configs>

@@ -1,6 +1,126 @@
 <configs>
 
 	<append xpath="/gamestages">
+
+		<!-- AntipasLifestockChickenPLUS -->
+		<spawner name="AntipasLifestockChickenPLUSSpawn">
+			<gamestage stage="1">
+				<spawn group="AntipasLifestockChickenPLUSGroupGS1" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="50">
+				<spawn group="AntipasLifestockChickenPLUSGroupGS50" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="100">
+				<spawn group="AntipasLifestockChickenPLUSGroupGS100" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="200">
+				<spawn group="AntipasLifestockChickenPLUSGroupGS200" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="400">
+				<spawn group="AntipasLifestockChickenPLUSGroupGS400" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="600">
+				<spawn group="AntipasLifestockChickenPLUSGroupGS600" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+		</spawner>
+
+		<group name="AntipasLifestockChickenPLUSSpawnGroup" spawner="AntipasLifestockChickenPLUSSpawn"/>
+
+		<!-- AntipasLifestockBunnyPLUS -->
+		<spawner name="AntipasLifestockBunnyPLUSSpawn">
+			<gamestage stage="1">
+				<spawn group="AntipasLifestockBunnyPLUSGroupGS1" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="50">
+				<spawn group="AntipasLifestockBunnyPLUSGroupGS50" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="100">
+				<spawn group="AntipasLifestockBunnyPLUSGroupGS100" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="200">
+				<spawn group="AntipasLifestockBunnyPLUSGroupGS200" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="400">
+				<spawn group="AntipasLifestockBunnyPLUSGroupGS400" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="600">
+				<spawn group="AntipasLifestockBunnyPLUSGroupGS600" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+		</spawner>
+
+		<group name="AntipasLifestockBunnyPLUSSpawnGroup" spawner="AntipasLifestockBunnyPLUSSpawn"/>
+
+		<!-- AntipasLifestockLuckyRabbit -->
+		<spawner name="AntipasLifestockLuckyRabbitSpawn">
+			<gamestage stage="1">
+				<spawn group="AntipasLifestockLuckyRabbitGroupGS1" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="50">
+				<spawn group="AntipasLifestockLuckyRabbitGroupGS50" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="100">
+				<spawn group="AntipasLifestockLuckyRabbitGroupGS100" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="200">
+				<spawn group="AntipasLifestockLuckyRabbitGroupGS200" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="400">
+				<spawn group="AntipasLifestockLuckyRabbitGroupGS400" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="600">
+				<spawn group="AntipasLifestockLuckyRabbitGroupGS600" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+		</spawner>
+
+		<group name="AntipasLifestockLuckyRabbitSpawnGroup" spawner="AntipasLifestockLuckyRabbitSpawn"/>
+
+		<!-- AntipasLifestockRabbits -->
+		<spawner name="AntipasLifestockRabbitsSpawn">
+			<gamestage stage="1">
+				<spawn group="AntipasLifestockRabbitsGroupGS1" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="50">
+				<spawn group="AntipasLifestockRabbitsGroupGS50" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="100">
+				<spawn group="AntipasLifestockRabbitsGroupGS100" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="200">
+				<spawn group="AntipasLifestockRabbitsGroupGS200" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="400">
+				<spawn group="AntipasLifestockRabbitsGroupGS400" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="600">
+				<spawn group="AntipasLifestockRabbitsGroupGS600" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+		</spawner>
+
+		<group name="AntipasLifestockRabbitsSpawnGroup" spawner="AntipasLifestockRabbitsSpawn"/>
+
+		<!-- AntipasLifestockChicken -->
+		<spawner name="AntipasLifestockChickenSpawn">
+			<gamestage stage="1">
+				<spawn group="AntipasLifestockChickenGroupGS1" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="50">
+				<spawn group="AntipasLifestockChickenGroupGS50" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="100">
+				<spawn group="AntipasLifestockChickenGroupGS100" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="200">
+				<spawn group="AntipasLifestockChickenGroupGS200" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="400">
+				<spawn group="AntipasLifestockChickenGroupGS400" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+			<gamestage stage="600">
+				<spawn group="AntipasLifestockChickenGroupGS600" num="1" maxAlive="1" duration="1"/>
+			</gamestage>
+		</spawner>
+
+		<group name="AntipasLifestockChickenSpawnGroup" spawner="AntipasLifestockChickenSpawn"/>
 	
 		<!-- Normal -->
 		<spawner name="zombieBBBNSpawn">

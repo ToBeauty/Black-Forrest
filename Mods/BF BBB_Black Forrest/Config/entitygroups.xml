@@ -2,6 +2,155 @@
 
 <append xpath="/entitygroups">
 
+<!-- AntipasLifestockBunnyPLUS -->
+	<entitygroup name="AntipasLifestockBunnyPLUSGroupGS1">
+		animalZombieBunnyPLUS
+	</entitygroup>
+
+	<entitygroup name="AntipasLifestockBunnyPLUSGroupGS50">
+		animalZombieBunnyPLUS
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockBunnyPLUSGroupGS100">
+		animalZombieBunnyPLUS
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockBunnyPLUSGroupGS200">
+		animalZombieBunnyPLUS
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockBunnyPLUSGroupGS400">
+		animalZombieBunnyPLUS
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockBunnyPLUSGroupGS600">
+		animalZombieBunnyPLUS
+	</entitygroup>
+
+<!-- AntipasLifestockChickenPLUS -->
+	<entitygroup name="AntipasLifestockChickenPLUSGroupGS1">
+		animalZombieChickenPLUS
+	</entitygroup>
+
+	<entitygroup name="AntipasLifestockChickenPLUSGroupGS50">
+		animalZombieChickenPLUS
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockChickenPLUSGroupGS100">
+		animalZombieChickenPLUS
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockChickenPLUSGroupGS200">
+		animalZombieChickenPLUS
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockChickenPLUSGroupGS400">
+		animalZombieChickenPLUS
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockChickenPLUSGroupGS600">
+		animalZombieChickenPLUS
+	</entitygroup>
+
+<!-- AntipasLifestockLuckyRabbit -->
+	<entitygroup name="AntipasLifestockLuckyRabbitGroupGS1">
+		animalLuckyRabbitBBB
+	</entitygroup>
+
+	<entitygroup name="AntipasLifestockLuckyRabbitGroupGS50">
+		animalLuckyRabbitBBB
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockLuckyRabbitGroupGS100">
+		animalLuckyRabbitBBB
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockLuckyRabbitGroupGS200">
+		animalLuckyRabbitBBB
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockLuckyRabbitGroupGS400">
+		animalLuckyRabbitBBB
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockLuckyRabbitGroupGS600">
+		animalLuckyRabbitBBB
+	</entitygroup>
+
+<!-- AntipasLifestockRabbits -->
+	<entitygroup name="AntipasLifestockRabbitsGroupGS1">
+		animalRabbit
+		animalZombieBunnyPLUS  , 0.5
+		animalLuckyRabbitBBB, 0.2
+	</entitygroup>
+
+	<entitygroup name="AntipasLifestockRabbitsGroupGS50">
+		animalRabbit
+		animalZombieBunnyPLUS  , 0.5
+		animalLuckyRabbitBBB, 0.2
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockRabbitsGroupGS100">
+		animalRabbit
+		animalZombieBunnyPLUS  , 0.5
+		animalLuckyRabbitBBB, 0.2
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockRabbitsGroupGS200">
+		animalRabbit
+		animalZombieBunnyPLUS  , 0.5
+		animalLuckyRabbitBBB, 0.2
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockRabbitsGroupGS400">
+		animalRabbit
+		animalZombieBunnyPLUS  , 0.5
+		animalLuckyRabbitBBB, 0.2
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockRabbitsGroupGS600">
+		animalRabbit
+		animalZombieBunnyPLUS  , 0.5
+		animalLuckyRabbitBBB, 0.2
+	</entitygroup>
+
+<!-- AntipasLifestockChicken -->
+	<entitygroup name="AntipasLifestockChickenGroupGS1">
+		animalChicken
+		animalZombieChickenPLUS, 0.5
+		animalChickenHostile
+	</entitygroup>
+
+	<entitygroup name="AntipasLifestockChickenGroupGS50">
+		animalChicken
+		animalZombieChickenPLUS, 0.5
+		animalChickenHostile
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockChickenGroupGS100">
+		animalChicken
+		animalZombieChickenPLUS, 0.5
+		animalChickenHostile
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockChickenGroupGS200">
+		animalChicken
+		animalZombieChickenPLUS, 0.5
+		animalChickenHostile
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockChickenGroupGS400">
+		animalChicken
+		animalZombieChickenPLUS, 0.5
+		animalChickenHostile
+	</entitygroup>
+	
+	<entitygroup name="AntipasLifestockChickenGroupGS600">
+		animalChicken
+		animalZombieChickenPLUS, 0.5
+		animalChickenHostile
+	</entitygroup>
+
 	<!-- Normal Group -->
 	<entitygroup name="zombieBBBNGroupGS1">
 		RAxtzombieBBB

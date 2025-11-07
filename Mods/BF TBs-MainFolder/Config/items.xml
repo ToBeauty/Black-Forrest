@@ -25,7 +25,7 @@
 	<property name="Group" value="Ammo/Weapons,Ranged Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
-	<property name="EconomicValue" value="5000"/>
+	<property name="EconomicValue" value="10000"/>	<!-- erhöht von 5000 auf 10000 2025-10-26 -->
 	<property name="UnlockedBy" value="craftingMachineGuns"/><!-- gunHandgunT3ThompsonSMGSchematic, -->
 	<property name="ShowQuality" value="true"/>
 	<property name="SoundUnholster" value="weapon_unholster"/>
@@ -127,8 +127,8 @@
 	<property name="Group" value="Ammo/Weapons,Ranged Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
-	<property name="EconomicValue" value="5000"/>
-	<property name="TraderStageTemplate" value="baseTier2"/><!-- gunHandgunT3ThompsonSMG -->
+	<property name="EconomicValue" value="10000"/>	<!-- erhöht von 5000 auf 10000 2025-10-26 -->
+	<property name="TraderStageTemplate" value="overpoweredStuff"/><!-- gunHandgunT3ThompsonSMG -->
 	<property name="UnlockedBy" value="craftingHandguns"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="SoundUnholster" value="weapon_unholster"/>
@@ -230,7 +230,7 @@
 	<property name="Sound_Sight_Out" value="launcher_sight_out"/>
 	<property name="Group" value="Ammo/Weapons,Ranged Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
-	<property name="EconomicValue" value="2000"/>
+	<property name="EconomicValue" value="10000"/>	<!-- erhöht von 2000 auf 10000 2025-10-26 -->
 	<property name="UnlockedBy" value="craftingExplosives"/><!-- gunExplosivesT3RocketLauncherSchematic, -->
 	<property name="ShowQuality" value="true"/>
 	<property name="SoundUnholster" value="weapon_unholster"/>
@@ -318,7 +318,7 @@
 	<property name="EconomicValue" value="10"/>
 	<property name="EconomicBundleSize" value="10"/>
 	<property name="Group" value="Resources"/>
-	<property name="TraderStageTemplate" value="baseTier2"/>	
+	<property name="TraderStageTemplate" value="overpoweredStuff"/>	
 	<property name="RepairTime" value=".5"/>
 	<property name="RepairAmount" value="20"/>
 	<property name="CraftingIngredientTime" value=".2"/>
@@ -332,7 +332,7 @@
 	<property name="Stacknumber" value="500"/>
 	<property name="EconomicValue" value="100"/>
 	<property name="Group" value="Resources"/>
-	<property name="TraderStageTemplate" value="baseTier2"/>	
+	<property name="TraderStageTemplate" value="overpoweredStuff"/>	
 	<property name="CraftingIngredientTime" value="15"/>
 	<property name="RepairTime" value="1"/>
 	<property name="RepairAmount" value="400"/>
@@ -427,10 +427,6 @@
 -->
 	</effect_group>
 </item>
-
-
-
-
 
 <item name="unit_uranium">
 	<property name="Extends" value="unit_iron"/>

@@ -24,12 +24,12 @@
   <property name="QuestTags" value="clear, fetch, restore_power, infested" />
   <property name="YOffset" value="-47" />
   <property class="Stats">
-    <property name="LightsVolume" value="352889.4" />
-    <property name="TotalVertices" value="1718488" />
-    <property name="TotalTriangles" value="800361" />
+    <property name="LightsVolume" value="352889.5" />
+    <property name="TotalVertices" value="1718410" />
+    <property name="TotalTriangles" value="800241" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1248352" />
-      <property name="Triangles" value="488583" />
+      <property name="Vertices" value="1248274" />
+      <property name="Triangles" value="488463" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="399399" />

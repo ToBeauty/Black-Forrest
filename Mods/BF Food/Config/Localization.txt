@@ -1,8 +1,4 @@
 key,English,German
 
 foodSurviveandDie,"Omelette with Mushrooms","Omelette mit Pilzen"
-
-
-
-
-
+foodSurviveandDieDesc,"High nutrition, hydration and healing, but requiring some exotic ingredients.","Hoher Nährwert, Hydrierung und Heilung, aber benötigt einige exotische Zutaten."

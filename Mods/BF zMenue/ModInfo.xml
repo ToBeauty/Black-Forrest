@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>	
-	<Name value="CustomMenuArt" />
-	<DisplayName value="Khelldon - Custom Menu Art"/>
-	<Description value="Allows users to change the menu art." />
-	<Author value="Doughphunghus,Khelldon" />
-	<Version value="3.0.0.4522" />
-	<Website value="" />
+	<Name value="BlackForrestLoadingScreens" />
+	<DisplayName value="Black Forrest Images on Loading Screens"/>
+	<Description value="Images of Black Forrest POIs for Loading Screens" />
+	<Author value="Antipas66" />
+	<Version value="1.0.0.0" />
 </xml>

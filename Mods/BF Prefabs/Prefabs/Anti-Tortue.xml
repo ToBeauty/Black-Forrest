@@ -9,7 +9,7 @@
   <property name="ShowQuestClearCount" value="1" />
   <property name="TraderArea" value="False" />
   <property name="PrefabSize" value="25, 13, 25" />
-  <property name="RotationToFaceNorth" value="2" />
+  <property name="RotationToFaceNorth" value="1" />
   <property name="Zoning" value="none" />
   <property name="YOffset" value="-6" />
   <property name="Tags" value="countryresidential" />
@@ -60,16 +60,16 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="LightsVolume" value="0" />
-    <property name="TotalVertices" value="210649" />
-    <property name="TotalTriangles" value="97893" />
+    <property name="LightsVolume" value="27679.65" />
+    <property name="TotalVertices" value="299697" />
+    <property name="TotalTriangles" value="108872" />
     <property class="BlockEntities">
-      <property name="Vertices" value="193727" />
-      <property name="Triangles" value="84373" />
+      <property name="Vertices" value="282835" />
+      <property name="Triangles" value="95439" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="14616" />
-      <property name="Triangles" value="9676" />
+      <property name="Vertices" value="14556" />
+      <property name="Triangles" value="9589" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
