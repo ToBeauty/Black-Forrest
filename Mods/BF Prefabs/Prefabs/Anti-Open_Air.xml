@@ -23,13 +23,21 @@
   <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # " />
   <property name="QuestTags" value="clear, fetch, restore_power, infested" />
   <property name="YOffset" value="-4" />
+  <property name="POIMarkerSize" value="4, 1, 2" />
+  <property name="POIMarkerStart" value="62, 3, 0" />
+  <property name="POIMarkerGroup" value="new" />
+  <property name="POIMarkerTags" value="" />
+  <property name="POIMarkerType" value="RoadExit" />
+  <property name="POIMarkerPartToSpawn" value="" />
+  <property name="POIMarkerPartRotations" value="2" />
+  <property name="POIMarkerPartSpawnChance" value="1" />
   <property class="Stats">
     <property name="LightsVolume" value="2056054" />
-    <property name="TotalVertices" value="2492714" />
-    <property name="TotalTriangles" value="1222184" />
+    <property name="TotalVertices" value="2493294" />
+    <property name="TotalTriangles" value="1222404" />
     <property class="BlockEntities">
-      <property name="Vertices" value="2184702" />
-      <property name="Triangles" value="991432" />
+      <property name="Vertices" value="2185282" />
+      <property name="Triangles" value="991652" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="247710" />

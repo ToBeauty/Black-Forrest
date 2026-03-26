@@ -25,6 +25,14 @@
   <property name="DuplicateRepeatDistance" value="100" />
   <property name="QuestTags" value="clear, fetch, restore_power" />
   <property name="Zoning" value="none" />
+  <property name="POIMarkerSize" value="2, 1, 2" />
+  <property name="POIMarkerStart" value="10, 1, 23" />
+  <property name="POIMarkerGroup" value="new1" />
+  <property name="POIMarkerTags" value="part" />
+  <property name="POIMarkerType" value="RoadExit" />
+  <property name="POIMarkerPartToSpawn" value="" />
+  <property name="POIMarkerPartRotations" value="0" />
+  <property name="POIMarkerPartSpawnChance" value="1" />
   <property class="IndexedBlockOffsets">
     <property class="POILight">
       <property name="0" value="17, 2, 1" />

@@ -24,9 +24,18 @@
   <property name="Zoning" value="none, Industrial, ResidentialNew, Residential, ResdentialOld" />
   <property name="EditorGroups" value="Wilderness, world/deco/biome, industrial" />
   <property name="ThemeTags" value="wildernesspoi" />
+  <property name="POIMarkerSize" value="2, 1, 3" />
+  <property name="POIMarkerStart" value="40, 0, 28" />
+  <property name="POIMarkerGroup" value="new" />
+  <property name="POIMarkerTags" value="" />
+  <property name="POIMarkerType" value="RoadExit" />
+  <property name="POIMarkerPartToSpawn" value="" />
+  <property name="POIMarkerPartRotations" value="3" />
+  <property name="POIMarkerPartSpawnChance" value="1" />
   <property class="IndexedBlockOffsets">
     <property class="POILight">
-      <property name="0" value="25, 1, 39" />
+      <property name="0" value="33, 2, 45" />
+      <property name="1" value="35, 2, 45" />
     </property>
     <property class="quest_wood">
       <property name="0" value="23, 1, 26" />
@@ -54,24 +63,23 @@
       <property name="9" value="12, 103, 33" />
     </property>
     <property class="challenge_polymers">
-      <property name="0" value="10, 73, 31" />
-      <property name="1" value="13, 73, 31" />
+      <property name="0" value="30, 1, 39" />
     </property>
     <property class="Rally">
       <property name="0" value="29, 1, 26" />
     </property>
   </property>
   <property class="Stats">
-    <property name="LightsVolume" value="0" />
-    <property name="TotalVertices" value="243873" />
-    <property name="TotalTriangles" value="136686" />
+    <property name="LightsVolume" value="1265503" />
+    <property name="TotalVertices" value="366103" />
+    <property name="TotalTriangles" value="197360" />
     <property class="BlockEntities">
-      <property name="Vertices" value="80676" />
-      <property name="Triangles" value="32069" />
+      <property name="Vertices" value="201230" />
+      <property name="Triangles" value="91491" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="152935" />
-      <property name="Triangles" value="93469" />
+      <property name="Vertices" value="154611" />
+      <property name="Triangles" value="94721" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

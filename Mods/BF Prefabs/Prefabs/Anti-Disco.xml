@@ -24,25 +24,33 @@
   <property name="SleeperVolumeFlags" value="0,0,2,2,2,2,2,2,2,2,0,2,2,2,2,2,0,2,0,2,2,2" />
   <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # # # # # # # # # # # # # # # " />
   <property name="DuplicateRepeatDistance" value="200" />
+  <property name="POIMarkerSize" value="5, 1, 2" />
+  <property name="POIMarkerStart" value="28, 10, 0" />
+  <property name="POIMarkerGroup" value="new" />
+  <property name="POIMarkerTags" value="" />
+  <property name="POIMarkerType" value="RoadExit" />
+  <property name="POIMarkerPartToSpawn" value="" />
+  <property name="POIMarkerPartRotations" value="2" />
+  <property name="POIMarkerPartSpawnChance" value="1" />
   <property class="Stats">
-    <property name="LightsVolume" value="816519.2" />
-    <property name="TotalVertices" value="1404254" />
-    <property name="TotalTriangles" value="653509" />
+    <property name="LightsVolume" value="670796.4" />
+    <property name="TotalVertices" value="1417520" />
+    <property name="TotalTriangles" value="655935" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1207821" />
-      <property name="Triangles" value="511481" />
+      <property name="Vertices" value="1216831" />
+      <property name="Triangles" value="514291" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="172527" />
-      <property name="Triangles" value="112976" />
+      <property name="Vertices" value="176845" />
+      <property name="Triangles" value="112512" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes2">
-      <property name="Vertices" value="2848" />
-      <property name="Triangles" value="1424" />
+      <property name="Vertices" value="2712" />
+      <property name="Triangles" value="1356" />
     </property>
     <property class="ChunkMeshes3">
       <property name="Vertices" value="6360" />
@@ -53,8 +61,8 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes5">
-      <property name="Vertices" value="14698" />
-      <property name="Triangles" value="24448" />
+      <property name="Vertices" value="14772" />
+      <property name="Triangles" value="24596" />
     </property>
   </property>
   <property class="IndexedBlockOffsets">

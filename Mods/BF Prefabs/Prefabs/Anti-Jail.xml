@@ -27,6 +27,14 @@
   <property name="QuestTags" value="clear, fetch, restore_power, infested" />
   <property name="Tags" value="desert, forest, burntforest, snow, wasteland, rural, downtown" />
   <property name="DuplicateRepeatDistance" value="200" />
+  <property name="POIMarkerSize" value="6, 1, 2" />
+  <property name="POIMarkerStart" value="21, 0, 0" />
+  <property name="POIMarkerGroup" value="new" />
+  <property name="POIMarkerTags" value="" />
+  <property name="POIMarkerType" value="RoadExit" />
+  <property name="POIMarkerPartToSpawn" value="" />
+  <property name="POIMarkerPartRotations" value="2" />
+  <property name="POIMarkerPartSpawnChance" value="1" />
   <property class="IndexedBlockOffsets">
     <property class="quest_wood_trees">
       <property name="0" value="46, 1, 58" />
@@ -38,11 +46,7 @@
       <property name="0" value="40, 10, 49" />
     </property>
     <property class="TraderOnOff">
-      <property name="0" value="24, 5, 47" />
-      <property name="1" value="27, 5, 47" />
-      <property name="2" value="29, 1, 47" />
-      <property name="3" value="30, 5, 47" />
-      <property name="4" value="33, 5, 47" />
+      <property name="0" value="40, 5, 45" />
     </property>
     <property class="challenge_mech_parts">
       <property name="0" value="33, 1, 41" />
@@ -67,29 +71,32 @@
     <property class="Rally">
       <property name="0" value="30, 1, 6" />
     </property>
+    <property class="challenge_cars">
+      <property name="0" value="27, 1, 55" />
+    </property>
     <property class="challenge_stump">
       <property name="0" value="44, 1, 17" />
     </property>
   </property>
   <property class="Stats">
-    <property name="LightsVolume" value="0" />
-    <property name="TotalVertices" value="857371" />
-    <property name="TotalTriangles" value="404230" />
+    <property name="LightsVolume" value="1101664" />
+    <property name="TotalVertices" value="935073" />
+    <property name="TotalTriangles" value="408734" />
     <property class="BlockEntities">
-      <property name="Vertices" value="749696" />
-      <property name="Triangles" value="324885" />
+      <property name="Vertices" value="822930" />
+      <property name="Triangles" value="327929" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="100329" />
-      <property name="Triangles" value="67385" />
+      <property name="Vertices" value="104877" />
+      <property name="Triangles" value="68885" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes2">
-      <property name="Vertices" value="88" />
-      <property name="Triangles" value="44" />
+      <property name="Vertices" value="8" />
+      <property name="Triangles" value="4" />
     </property>
     <property class="ChunkMeshes3">
       <property name="Vertices" value="0" />

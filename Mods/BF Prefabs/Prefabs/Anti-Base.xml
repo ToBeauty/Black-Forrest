@@ -23,6 +23,14 @@
   <property name="QuestTags" value="clear, fetch, restore_power, infested" />
   <property name="Tags" value="desert, forest, burntforest, snow, wasteland, wilderness, wildernesspoi" />
   <property name="EditorGroups" value="Wilderness" />
+  <property name="POIMarkerSize" value="2, 1, 5" />
+  <property name="POIMarkerStart" value="101, 6, 16" />
+  <property name="POIMarkerGroup" value="new" />
+  <property name="POIMarkerTags" value="" />
+  <property name="POIMarkerType" value="RoadExit" />
+  <property name="POIMarkerPartToSpawn" value="" />
+  <property name="POIMarkerPartRotations" value="3" />
+  <property name="POIMarkerPartSpawnChance" value="1" />
   <property class="IndexedBlockOffsets">
     <property class="quest_wood">
       <property name="0" value="67, 7, 37" />
@@ -93,15 +101,15 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="LightsVolume" value="245529.8" />
-    <property name="TotalVertices" value="2416202" />
-    <property name="TotalTriangles" value="1062319" />
+    <property name="LightsVolume" value="245529.7" />
+    <property name="TotalVertices" value="2418474" />
+    <property name="TotalTriangles" value="1053241" />
     <property class="BlockEntities">
-      <property name="Vertices" value="2077200" />
-      <property name="Triangles" value="812023" />
+      <property name="Vertices" value="2059194" />
+      <property name="Triangles" value="802945" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="296748" />
+      <property name="Vertices" value="317026" />
       <property name="Triangles" value="213470" />
     </property>
     <property class="ChunkMeshes1">

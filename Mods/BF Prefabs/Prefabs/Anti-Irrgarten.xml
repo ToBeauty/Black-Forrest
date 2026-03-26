@@ -23,6 +23,14 @@
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="2,2,2,2,2" />
   <property name="SleeperVolumeTriggeredBy" value=" # # # # " />
+  <property name="POIMarkerSize" value="3, 1, 2" />
+  <property name="POIMarkerStart" value="17, 20, 0" />
+  <property name="POIMarkerGroup" value="new" />
+  <property name="POIMarkerTags" value="" />
+  <property name="POIMarkerType" value="RoadExit" />
+  <property name="POIMarkerPartToSpawn" value="" />
+  <property name="POIMarkerPartRotations" value="2" />
+  <property name="POIMarkerPartSpawnChance" value="1" />
   <property class="IndexedBlockOffsets">
     <property class="QuestRestorePower">
       <property name="0" value="40, 8, 95" />
@@ -66,12 +74,12 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="LightsVolume" value="0" />
-    <property name="TotalVertices" value="1230208" />
-    <property name="TotalTriangles" value="732956" />
+    <property name="LightsVolume" value="2186058" />
+    <property name="TotalVertices" value="1847485" />
+    <property name="TotalTriangles" value="1014094" />
     <property class="BlockEntities">
-      <property name="Vertices" value="703490" />
-      <property name="Triangles" value="410716" />
+      <property name="Vertices" value="1320855" />
+      <property name="Triangles" value="691898" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="301136" />
@@ -86,8 +94,8 @@
       <property name="Triangles" value="84824" />
     </property>
     <property class="ChunkMeshes3">
-      <property name="Vertices" value="34656" />
-      <property name="Triangles" value="17328" />
+      <property name="Vertices" value="34568" />
+      <property name="Triangles" value="17284" />
     </property>
     <property class="ChunkMeshes4">
       <property name="Vertices" value="0" />
