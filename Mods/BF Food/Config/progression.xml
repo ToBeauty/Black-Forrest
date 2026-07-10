@@ -1,6 +1,0 @@
-<configs>
-
-	<csv xpath='//crafting_skill[@name="craftingFood"]//unlock_entry[contains(@item,"foodSteakAndPotato")]/@item'									delim="," op="add">foodSurviveandDie</csv>
-	<csv xpath='//crafting_skill[@name="craftingFood"]//passive_effect[@name="RecipeTagUnlocked" and contains(@tags,"foodSteakAndPotato")]/@tags'	delim="," op="add">foodSurviveandDie</csv>
-	
-</configs>
