@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="NewFood" />
+	<DisplayName value="Survive and Die" />
+	<Description value="food" />
+	<Author value="ToBeauty" />
+	<Version value="1.0" />
+	<Website value="" />
+	<SkipWithAntiCheat value="true" />
+</xml>

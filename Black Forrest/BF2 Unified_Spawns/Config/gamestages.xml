@@ -1,0 +1,261 @@
+<configs>
+	<set xpath='//spawner[@name="WanderingHorde"]'>
+		<gamestage stage="01"><spawn group="wanderingHordeStageGS1" num="56" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="02"><spawn group="wanderingHordeStageGS2" num="55" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="03"><spawn group="wanderingHordeStageGS3" num="125" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="04"><spawn group="wanderingHordeStageGS4" num="128" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="05"><spawn group="wanderingHordeStageGS5" num="117" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="06"><spawn group="wanderingHordeStageGS6" num="91" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="07"><spawn group="wanderingHordeStageGS7" num="90" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="08"><spawn group="wanderingHordeStageGS8" num="70" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="09"><spawn group="wanderingHordeStageGS9" num="73" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="10"><spawn group="wanderingHordeStageGS10" num="86" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="11"><spawn group="wanderingHordeStageGS11" num="79" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="12"><spawn group="wanderingHordeStageGS12" num="129" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="13"><spawn group="wanderingHordeStageGS13" num="73" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="14"><spawn group="wanderingHordeStageGS14" num="66" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="15"><spawn group="wanderingHordeStageGS15" num="84" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="16"><spawn group="wanderingHordeStageGS16" num="130" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="17"><spawn group="wanderingHordeStageGS17" num="62" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="18"><spawn group="wanderingHordeStageGS18" num="95" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="19"><spawn group="wanderingHordeStageGS19" num="57" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="20"><spawn group="wanderingHordeStageGS20" num="111" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="21"><spawn group="wanderingHordeStageGS21" num="98" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="22"><spawn group="wanderingHordeStageGS22" num="113" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="23"><spawn group="wanderingHordeStageGS23" num="67" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="24"><spawn group="wanderingHordeStageGS24" num="116" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="25"><spawn group="wanderingHordeStageGS25" num="83" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="26"><spawn group="wanderingHordeStageGS26" num="63" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="27"><spawn group="wanderingHordeStageGS27" num="109" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="28"><spawn group="wanderingHordeStageGS28" num="104" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="29"><spawn group="wanderingHordeStageGS29" num="61" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="30"><spawn group="wanderingHordeStageGS30" num="92" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="31"><spawn group="wanderingHordeStageGS31" num="77" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="32"><spawn group="wanderingHordeStageGS32" num="120" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="33"><spawn group="wanderingHordeStageGS33" num="74" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="34"><spawn group="wanderingHordeStageGS34" num="93" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="35"><spawn group="wanderingHordeStageGS35" num="61" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="36"><spawn group="wanderingHordeStageGS36" num="103" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="37"><spawn group="wanderingHordeStageGS37" num="78" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="38"><spawn group="wanderingHordeStageGS38" num="72" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="39"><spawn group="wanderingHordeStageGS39" num="117" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="40"><spawn group="wanderingHordeStageGS40" num="79" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="41"><spawn group="wanderingHordeStageGS41" num="51" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="42"><spawn group="wanderingHordeStageGS42" num="87" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="43"><spawn group="wanderingHordeStageGS43" num="124" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="44"><spawn group="wanderingHordeStageGS44" num="66" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="45"><spawn group="wanderingHordeStageGS45" num="121" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="46"><spawn group="wanderingHordeStageGS46" num="95" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="47"><spawn group="wanderingHordeStageGS47" num="98" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="48"><spawn group="wanderingHordeStageGS48" num="67" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="49"><spawn group="wanderingHordeStageGS49" num="101" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="50"><spawn group="wanderingHordeStageGS50" num="60" maxAlive="60" duration="9"/></gamestage>
+	</set>
+	<set xpath='//spawner[@name="BloodMoonHorde"]'>
+		<gamestage stage="1">
+			<spawn group="feralHordeStageGS1" num="333" maxAlive="2" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS1" num="333" maxAlive="2" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS1" num="333" maxAlive="2" duration="8"/>
+		</gamestage>
+		<gamestage stage="2">
+			<spawn group="feralHordeStageGS2" num="333" maxAlive="3" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS2" num="333" maxAlive="3" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS2" num="333" maxAlive="3" duration="8"/>
+		</gamestage>
+		<gamestage stage="3">
+			<spawn group="feralHordeStageGS3" num="333" maxAlive="3" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS3" num="333" maxAlive="3" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS3" num="333" maxAlive="3" duration="8"/>
+		</gamestage>
+		<gamestage stage="4">
+			<spawn group="feralHordeStageGS4" num="333" maxAlive="3" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS4" num="333" maxAlive="3" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS4" num="333" maxAlive="3" duration="8"/>
+		</gamestage>
+		<gamestage stage="5">
+			<spawn group="feralHordeStageGS5" num="333" maxAlive="4" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS5" num="333" maxAlive="4" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS5" num="333" maxAlive="4" duration="8"/>
+		</gamestage>
+		<gamestage stage="6">
+			<spawn group="feralHordeStageGS6" num="333" maxAlive="4" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS6" num="333" maxAlive="4" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS6" num="333" maxAlive="4" duration="8"/>
+		</gamestage>
+		<gamestage stage="8">
+			<spawn group="feralHordeStageGS8" num="333" maxAlive="5" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS8" num="333" maxAlive="5" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS8" num="333" maxAlive="5" duration="8"/>
+		</gamestage>
+		<gamestage stage="10">
+			<spawn group="feralHordeStageGS10" num="333" maxAlive="6" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS10" num="333" maxAlive="6" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS10" num="333" maxAlive="6" duration="8"/>
+		</gamestage>
+		<gamestage stage="12">
+			<spawn group="feralHordeStageGS12" num="333" maxAlive="7" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS12" num="333" maxAlive="7" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS12" num="333" maxAlive="7" duration="8"/>
+		</gamestage>
+		<gamestage stage="15">
+			<spawn group="feralHordeStageGS15" num="333" maxAlive="8" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS15" num="333" maxAlive="8" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS15" num="333" maxAlive="8" duration="8"/>
+		</gamestage>
+		<gamestage stage="18">
+			<spawn group="feralHordeStageGS18" num="333" maxAlive="10" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS18" num="333" maxAlive="10" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS18" num="333" maxAlive="10" duration="8"/>
+		</gamestage>
+		<gamestage stage="22">
+			<spawn group="feralHordeStageGS22" num="333" maxAlive="12" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS22" num="333" maxAlive="12" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS22" num="333" maxAlive="12" duration="8"/>
+		</gamestage>
+		<gamestage stage="27">
+			<spawn group="feralHordeStageGS27" num="333" maxAlive="14" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS27" num="333" maxAlive="14" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS27" num="333" maxAlive="14" duration="8"/>
+		</gamestage>
+		<gamestage stage="33">
+			<spawn group="feralHordeStageGS33" num="333" maxAlive="17" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS33" num="333" maxAlive="17" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS33" num="333" maxAlive="17" duration="8"/>
+		</gamestage>
+		<gamestage stage="40">
+			<spawn group="feralHordeStageGS40" num="333" maxAlive="20" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS40" num="333" maxAlive="20" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS40" num="333" maxAlive="20" duration="8"/>
+		</gamestage>
+		<gamestage stage="48">
+			<spawn group="feralHordeStageGS48" num="333" maxAlive="24" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS48" num="333" maxAlive="24" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS48" num="333" maxAlive="24" duration="8"/>
+		</gamestage>
+		<gamestage stage="58">
+			<spawn group="feralHordeStageGS58" num="333" maxAlive="29" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS58" num="333" maxAlive="29" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS58" num="333" maxAlive="29" duration="8"/>
+		</gamestage>
+		<gamestage stage="70">
+			<spawn group="feralHordeStageGS70" num="333" maxAlive="35" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS70" num="333" maxAlive="35" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS70" num="333" maxAlive="35" duration="8"/>
+		</gamestage>
+		<gamestage stage="84">
+			<spawn group="feralHordeStageGS84" num="333" maxAlive="42" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS84" num="333" maxAlive="42" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS84" num="333" maxAlive="42" duration="8"/>
+		</gamestage>
+		<gamestage stage="101">
+			<spawn group="feralHordeStageGS101" num="333" maxAlive="51" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS101" num="333" maxAlive="51" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS101" num="333" maxAlive="51" duration="8"/>
+		</gamestage>
+		<gamestage stage="122">
+			<spawn group="feralHordeStageGS122" num="333" maxAlive="61" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS122" num="333" maxAlive="61" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS122" num="333" maxAlive="61" duration="8"/>
+		</gamestage>
+		<gamestage stage="147">
+			<spawn group="feralHordeStageGS147" num="333" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS147" num="333" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS147" num="333" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="177">
+			<spawn group="feralHordeStageGS177" num="333" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS177" num="333" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS177" num="333" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="213">
+			<spawn group="feralHordeStageGS213" num="333" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS213" num="333" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS213" num="333" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="256">
+			<spawn group="feralHordeStageGS256" num="341" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS256" num="341" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS256" num="341" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="308">
+			<spawn group="feralHordeStageGS308" num="411" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS308" num="411" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS308" num="411" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="370">
+			<spawn group="feralHordeStageGS370" num="493" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS370" num="493" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS370" num="493" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="444">
+			<spawn group="feralHordeStageGS444" num="592" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS444" num="592" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS444" num="592" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="533">
+			<spawn group="feralHordeStageGS533" num="711" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS533" num="711" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS533" num="711" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="640">
+			<spawn group="feralHordeStageGS640" num="853" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS640" num="853" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS640" num="853" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="768">
+			<spawn group="feralHordeStageGS768" num="1024" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS768" num="1024" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS768" num="1024" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="922">
+			<spawn group="feralHordeStageGS922" num="1229" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS922" num="1229" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS922" num="1229" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="1107">
+			<spawn group="feralHordeStageGS1107" num="1476" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS1107" num="1476" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS1107" num="1476" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="1329">
+			<spawn group="feralHordeStageGS1329" num="1772" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS1329" num="1772" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS1329" num="1772" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="1595">
+			<spawn group="feralHordeStageGS1595" num="2127" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS1595" num="2127" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS1595" num="2127" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="1914">
+			<spawn group="feralHordeStageGS1914" num="2552" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS1914" num="2552" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS1914" num="2552" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="2297">
+			<spawn group="feralHordeStageGS2297" num="3063" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS2297" num="3063" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS2297" num="3063" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="2757">
+			<spawn group="feralHordeStageGS2757" num="3676" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS2757" num="3676" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS2757" num="3676" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="3309">
+			<spawn group="feralHordeStageGS3309" num="4412" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS3309" num="4412" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS3309" num="4412" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="3971">
+			<spawn group="feralHordeStageGS3971" num="5295" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS3971" num="5295" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS3971" num="5295" maxAlive="64" duration="8"/>
+		</gamestage>
+		<gamestage stage="4766">
+			<spawn group="feralHordeStageGS4766" num="6355" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS4766" num="6355" maxAlive="64" duration="8" interval="30"/>
+			<spawn group="feralHordeStageGS4766" num="6355" maxAlive="64" duration="8"/>
+		</gamestage>
+	</set>
+</configs>

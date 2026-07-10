@@ -1,0 +1,7 @@
+<xml>
+	<Name value="BlackForrest_Unified_Spawns" />
+	<DisplayName value="Zombiespawns mit Einbeziehung aller Zombie-Modlets" />
+	<Description value="Zombiespawns für alle Biome, POIs, Horden und Sonderereignisse werden um alle im BlackForrest eingebundenen Zombie-Modlets erweitert, so dass die Skalierungs-Philosophie von Vanilla 7DTD erhalten bleibt, Biome-Challenges funktionieren und die Grundidee des BlackForrest, die Schwierigkeit zu erhöhen, umgesetzt wird." />
+	<Author value="Antipas + WhiteGandalf" />
+	<Version value="1.1.0" />
+</xml>

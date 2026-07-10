@@ -1,0 +1,4 @@
+<configs>
+	<csv xpath='//challenge[@name="burntSurvivalKillZombie"]/objective[@type="Kill"]/@entity_names' delim="," op="add">zombieSpiderFeuerBBB,zombieSpiderScreamerFeuerCowSkullBBB,zombieSpiderFeuerChargedBBB,zombieSpiderFeuerRadiatedBBB,KurbiszombieFeralBBB,KurbiszombieRadiatedBBB,zombieScreamerBurnBBB,zombieBurntSirenPLUS,zombieBurntElite</csv>
+	<csv xpath='//challenge[@name="snowSurvivalKillZombie"]/objective[@type="Kill"]/@entity_names' delim="," op="add">zombieSnowManBBB</csv>
+</configs>

@@ -1,0 +1,20 @@
+<configs>
+
+	<append xpath="/buffs">
+
+		<buff name="disco_dance">
+			<stack_type value="replace"/>
+			<duration value="3600000"/>
+
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="SetDancing" enabled="true" />
+				<triggered_effect trigger="onSelfBuffRemove" action="SetDancing" enabled="false" />
+				<triggered_effect trigger="onSelfBuffRemove" action="Rage" enabled="true" />
+				<triggered_effect trigger="onOtherDamagedSelf" action="RemoveBuff" buff="disco_dance" />
+				<triggered_effect trigger="onSelfAttackedOther" action="RemoveBuff" buff="disco_dance" />
+			</effect_group>
+		</buff>
+
+	</append>
+	
+</configs>

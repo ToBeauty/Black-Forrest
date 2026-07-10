@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Black_Forrest_Spawnboost" />
+	<DisplayName value="Black Forrest Spawnboost" />
+	<Description value="Boosts random spawns to 2 times vanilla (sufficient action for low end machines)" />
+	<Author value="WhiteGandalf" />
+	<Version value="2.1" />
+	<Website value="" />
+	<SkipWithAntiCheat value="true" />
+</xml>

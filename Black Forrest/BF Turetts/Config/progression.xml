@@ -1,0 +1,13 @@
+<configs>
+
+	<append xpath='//display_entry[contains(@icon,"autoTurret")]'>
+		<unlock_entry item="autoThompsonTurret44"	unlock_tier="1"/>
+		<unlock_entry item="autoThompsonTurret44HP"	unlock_tier="1"/>
+		<unlock_entry item="autoThompsonTurret44AP"	unlock_tier="1"/>
+		<unlock_entry item="autoTurret9mm"			unlock_tier="1"/>
+		<unlock_entry item="autoTurret9mmHP"		unlock_tier="1"/>
+		<unlock_entry item="autoTurret9mmAP"		unlock_tier="1"/>
+	</append>
+	<csv xpath='//passive_effect[@name="RecipeTagUnlocked" and contains(@tags,"autoTurret")]/@tags' delim="," op="add">autoThompsonTurret44,autoThompsonTurret44HP,autoThompsonTurret44AP,autoTurret9mm,autoTurret9mmHP,autoTurret9mmAP</csv>
+
+</configs>

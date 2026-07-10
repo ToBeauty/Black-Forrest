@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="UraniumForge" />
+	<DisplayName value="Ressource Uranium" />
+	<Description value="Uranium to be used with 7 Days to Die" />
+	<Author value="ToBeauty" />
+	<Version value="1.0" />
+	<Website value="" />
+	<SkipWithAntiCheat value="true" />
+</xml>

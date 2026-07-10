@@ -1,0 +1,54 @@
+<configs>
+	<set xpath='//spawner[@name="WanderingHorde"]'>
+		<gamestage stage="01"><spawn group="wanderingHordeStageGS1" num="28" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="02"><spawn group="wanderingHordeStageGS2" num="44" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="03"><spawn group="wanderingHordeStageGS3" num="46" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="04"><spawn group="wanderingHordeStageGS4" num="23" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="05"><spawn group="wanderingHordeStageGS5" num="21" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="06"><spawn group="wanderingHordeStageGS6" num="53" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="07"><spawn group="wanderingHordeStageGS7" num="34" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="08"><spawn group="wanderingHordeStageGS8" num="41" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="09"><spawn group="wanderingHordeStageGS9" num="59" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="10"><spawn group="wanderingHordeStageGS10" num="27" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="11"><spawn group="wanderingHordeStageGS11" num="58" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="12"><spawn group="wanderingHordeStageGS12" num="49" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="13"><spawn group="wanderingHordeStageGS13" num="30" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="14"><spawn group="wanderingHordeStageGS14" num="23" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="15"><spawn group="wanderingHordeStageGS15" num="59" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="16"><spawn group="wanderingHordeStageGS16" num="53" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="17"><spawn group="wanderingHordeStageGS17" num="53" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="18"><spawn group="wanderingHordeStageGS18" num="49" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="19"><spawn group="wanderingHordeStageGS19" num="20" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="20"><spawn group="wanderingHordeStageGS20" num="46" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="21"><spawn group="wanderingHordeStageGS21" num="49" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="22"><spawn group="wanderingHordeStageGS22" num="22" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="23"><spawn group="wanderingHordeStageGS23" num="55" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="24"><spawn group="wanderingHordeStageGS24" num="20" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="25"><spawn group="wanderingHordeStageGS25" num="27" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="26"><spawn group="wanderingHordeStageGS26" num="25" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="27"><spawn group="wanderingHordeStageGS27" num="20" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="28"><spawn group="wanderingHordeStageGS28" num="33" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="29"><spawn group="wanderingHordeStageGS29" num="55" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="30"><spawn group="wanderingHordeStageGS30" num="48" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="31"><spawn group="wanderingHordeStageGS31" num="49" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="32"><spawn group="wanderingHordeStageGS32" num="48" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="33"><spawn group="wanderingHordeStageGS33" num="44" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="34"><spawn group="wanderingHordeStageGS34" num="47" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="35"><spawn group="wanderingHordeStageGS35" num="52" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="36"><spawn group="wanderingHordeStageGS36" num="43" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="37"><spawn group="wanderingHordeStageGS37" num="51" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="38"><spawn group="wanderingHordeStageGS38" num="34" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="39"><spawn group="wanderingHordeStageGS39" num="24" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="40"><spawn group="wanderingHordeStageGS40" num="54" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="41"><spawn group="wanderingHordeStageGS41" num="56" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="42"><spawn group="wanderingHordeStageGS42" num="47" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="43"><spawn group="wanderingHordeStageGS43" num="54" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="44"><spawn group="wanderingHordeStageGS44" num="29" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="45"><spawn group="wanderingHordeStageGS45" num="48" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="46"><spawn group="wanderingHordeStageGS46" num="39" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="47"><spawn group="wanderingHordeStageGS47" num="51" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="48"><spawn group="wanderingHordeStageGS48" num="36" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="49"><spawn group="wanderingHordeStageGS49" num="49" maxAlive="60" duration="9"/></gamestage>
+		<gamestage stage="50"><spawn group="wanderingHordeStageGS50" num="45" maxAlive="60" duration="9"/></gamestage>
+	</set>
+</configs>
